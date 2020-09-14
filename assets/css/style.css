@@ -78,16 +78,21 @@ div, nav, ul, li, img, i, a, p {
     background-size: cover;
 }
 
+.welcome-container {
+     padding: 0 5px;
+}
+
 .welcome-quote-container {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 12%;
+    height: 14%;
     width: 100%;
+    padding: 0 0 5px 5px;
 }
 
 .welcome-text {
-    font-size: 4em;
+    font-size: 5vw;
 }
 
 .welcome-logo {
@@ -105,7 +110,7 @@ div, nav, ul, li, img, i, a, p {
 .welcome-quote {
     margin: 0;
     padding: 0;
-    font-size: 1.25em;
+    font-size: 1.42vw;
 }
 /*........../.hero image*/
 
