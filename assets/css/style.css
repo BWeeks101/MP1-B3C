@@ -151,31 +151,19 @@ div, nav, ul, li, img, i, a, p {
     max-width: 250px;
 }
 
-.test {
-    height: 500px;
-    border: solid 1px hotpink;
+.cta-image-width {
+    width: 750px;
 }
 
 .cta-image {
     position: relative;
-    display: flex;
     height: 0;
-    width: 750px;
-    margin: 0;
+    width: 100%;
+    max-height: 500px;
+    max-width: 750px;
     border-radius: 5%;
     box-shadow: 5px 5px rgba(0,0,0,0.25);
-    border: solid 1px lightblue;
-}
-
-.cta-menu-image {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 500px;
-    width: 750px;
-    object-fit: contain;
+    padding-bottom: 66%;
 }
 
 .cta-image-overlay, .cta-image-text {
@@ -192,11 +180,9 @@ div, nav, ul, li, img, i, a, p {
     display: flex;
 }
 
-/*
 .menu-image {    
     background: url("../images/zan-baldwin-C64YvmXO_QA-unsplash.jpg") no-repeat center center/cover;
 }
-*/
 
 .locations-image {    
     background: url("../images/samuel-oakes-Fr_XUMvQ9AU-unsplash.jpg") no-repeat center center/cover;
