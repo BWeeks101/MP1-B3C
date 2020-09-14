@@ -1,0 +1,252 @@
+/*..........Set page defaults*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #4F483A;
+    color: #fafafa;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    background-color: rgba(0,0,0,0); 
+}
+
+a, .header-nav-link-text {
+    color: #fafafa;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+a:hover, .header-nav-link-text:hover {
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+div, nav, ul, li, img, i, a, .row, .header-nav-link, .header-nav-link-text {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+div, nav, ul, li, img, i, a, p {
+    background-color: rgba(0,0,0,0); 
+}
+
+.active-page {
+    text-decoration: underline;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.tint-50 {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hidden {
+    display: none;
+}
+
+.align-text-left {
+    text-align: left;
+}
+
+.align-text-right {
+    text-align: right;
+}
+/*........../.set page defaults*/
+
+
+/*..........Hero Image*/
+.hero-image {    
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("../images/brooke-cagle-8jp-6SjVibM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.welcome-quote-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 12%;
+    width: 100%;
+}
+
+.welcome-text {
+    font-size: 4em;
+}
+
+.welcome-logo {
+    height: 75px;
+}
+
+.welcome-container .col-12 {
+    text-align: center;
+}
+
+.welcome-quote-container .col-6 {
+    text-align: right;
+}
+
+.welcome-quote {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25em;
+}
+/*........../.hero image*/
+
+
+/*..........Header*/
+.header-row {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 5px 10px;
+    width: 100%;
+    border-bottom: solid 1px #4F483A;
+}
+
+.logo {
+    height: 33px;
+}
+
+.header-nav-container {
+    text-align: right;
+}
+
+.header-nav-link-text {
+    display: inline-block;
+}
+/*........../.header*/
+
+
+/*..........Body - CTA*/
+.cta-container {
+    padding: 15px 0 0 0;
+}
+
+.cta-container .row {
+    padding: 0 5px 15px;
+}
+
+.cta-text-wrapper {
+    max-width: 750px;
+}
+
+.btn-cta {
+    max-width: 250px;
+}
+
+.test {
+    height: 500px;
+    border: solid 1px hotpink;
+}
+
+.cta-image {
+    position: relative;
+    display: flex;
+    height: 0;
+    width: 750px;
+    margin: 0;
+    border-radius: 5%;
+    box-shadow: 5px 5px rgba(0,0,0,0.25);
+    border: solid 1px lightblue;
+}
+
+.cta-menu-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 750px;
+    object-fit: contain;
+}
+
+.cta-image-overlay, .cta-image-text {
+    border-radius: 5%;
+}
+
+.cta-image-text {
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-image:hover .hidden {
+    display: flex;
+}
+
+/*
+.menu-image {    
+    background: url("../images/zan-baldwin-C64YvmXO_QA-unsplash.jpg") no-repeat center center/cover;
+}
+*/
+
+.locations-image {    
+    background: url("../images/samuel-oakes-Fr_XUMvQ9AU-unsplash.jpg") no-repeat center center/cover;
+}
+
+.about-image {    
+    background: url("../images/matthew-gerrard-JQpe01ira0s-unsplash-resized.jpg") no-repeat center center/cover;
+}
+
+.contact-image {    
+    background: url("../images/mikey-harris-zasPTUnrWnI-unsplash.jpg") no-repeat center center/cover;
+}
+/*........../.body - cta*/
+
+
+/*..........Footer*/
+.footer-row {
+    padding: 10px 5px;
+    width: 100%;
+    border-top: solid 1px rgba(0,0,0,0.5);
+}
+
+.social-media-row .col-auto h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+/*........../.footer*/
+
+
+/*
+Off white:
+#fafafa;
+
+blue:
+#6194c9;
+
+stronger blue:
+#3F7AB8;
+
+Colour Palette:
+#82765F;
+#4F483A;
+#CFBC97;
+#DBC8A0;
+#B5A584;
+
+Heading Fonts:
+font-family: 'Roboto Slab', serif;
+
+Content Fonts:
+font-family: 'Roboto Mono', monospace;
+*/
