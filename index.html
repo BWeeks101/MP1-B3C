@@ -27,8 +27,7 @@
 </head>
 
 <body>
-    <header>
-        
+    <header>        
         <div class="container-fluid hero-container">
             <!--Hero Image, Overlay, Welcome Message and Quote-->
             <div class="hero-image">
@@ -36,22 +35,27 @@
                 </div>
                     <div class="d-flex justify-content-center align-items-center overlay welcome-container">
                         <div class="row">
-                            <div class="col-12">
-                                <h1 class="welcome-text">Welcome to the Bristol Charity Coffee Collective</h1>    
+                            <div class="col-12 text-center">
+                                <h1 class="welcome-text">Welcome to the</h1>&nbsp;<h1 class="d-none d-xl-inline welcome-text">Bristol Charity Coffee Collective</h1>
                             </div>
-                            <div class="d-none d-lg-block col-12">
+                            <div class="col-12 text-center">
                                 <img class="welcome-logo" src="assets/images/logotest.png" alt="B3C Logo">    
+                            </div>
+                            <div class="d-xl-none col-12 text-center">
+                                <h1 class="welcome-text">
+                                    Bristol Charity Coffee Collective
+                                </h1>
                             </div>
                         </div>
                     </div>
-                    <div class="container-fluid welcome-quote-container">
+                    <div class="d-none d-md-block container-fluid welcome-quote-container">
                         <div class="row no-gutters">
-                            <div class="col-6">
+                            <div class="col col-lg-6 text-center text-lg-right">
                                 <p class="welcome-quote">Small acts, when multiplied by millions of people, can transform the world.</p>
                             </div>
                         </div>
                         <div class="row no-gutters">
-                            <div class="col-6">
+                            <div class="col col-lg-6 text-center text-lg-right">
                                 <p class="welcome-quote">- Howard Zinn</p>
                             </div>
                         </div>
@@ -63,30 +67,23 @@
         <!--Logo and Nav-->
         <div class="container-fluid">
             <div class="row no-gutters align-items-center header-row">
-                <div class="col-6">
+                <div class="d-none d-lg-inline-block col-1">
                     <div class="header-logo-container">
                         <a href="#" class="logo-link">
                             <img class="logo" src="assets/images/logotest.png" alt="B3C Logo">                        
                         </a>                    
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="d-flex justify-content-end header-nav-container">
-                    <!-- Reutilised burger button code from WhiskeyDrop project-->
-                        <nav class="navbar-dark navbar-expand-md">
-                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-
-                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                <ul class="list-inline nav flex-column flex-md-row header-nav">
-                                    <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text active-page"><i class="fas fa-home header-nav-link-icon">&nbsp;</i>Home</h5></a></li>
-                                    <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text"><i class="fas fa-coffee header-nav-link-icon">&nbsp;</i>Menu</h5></a></li>
-                                    <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text"><i class="fas fa-map-marker-alt header-nav-link-icon">&nbsp;</i>Locations</h5></a></li>
-                                    <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text"><i class="fas fa-question-circle header-nav-link-icon">&nbsp;</i>About</h5></a></li>                            
-                                    <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text"><i class="fas fa-envelope header-nav-link-icon">&nbsp;</i>Contact Us</h5></a></li>
-                                </ul>
-                            </div>
+                <div class="col">
+                    <div class="d-flex justify-content-center justify-content-lg-end header-nav-container text-center text-lg-right">
+                        <nav class="header-nav">
+                            <ul class="list-inline header-nav">
+                                <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text active-page"><i class="fas fa-home header-nav-link-icon">&nbsp;</i>Home</h5></a></li>
+                                <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text"><i class="fas fa-coffee header-nav-link-icon">&nbsp;</i>Menu</h5></a></li>
+                                <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text"><i class="fas fa-map-marker-alt header-nav-link-icon">&nbsp;</i>Locations</h5></a></li>
+                                <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text"><i class="fas fa-question-circle header-nav-link-icon">&nbsp;</i>About</h5></a></li>                            
+                                <li class="list-inline-item"><a href="#" class="header-nav-link"><h5 class="header-nav-link-text"><i class="fas fa-envelope header-nav-link-icon">&nbsp;</i>Contact Us</h5></a></li>
+                            </ul>
                         </nav>
                     </div>    
                 </div>            
@@ -212,8 +209,8 @@
 
     <footer>
         <div class="container-fluid">
-            <div class="row no-gutters justify-content-end align-items-center footer-row">                
-                <div class="col-4">
+            <div class="row no-gutters justify-content-center justify-content-md-end align-items-center footer-row">                
+                <div class="col col-md-4">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="row justify-content-center align-items-center social-media-row">
                             <div class="col-auto">
@@ -239,20 +236,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 align-text-right">
+                <div class="d-none d-md-inline-block col-md-4 align-text-right">
                     <a href="#" class="logo-link">
                         <img class="logo" src="assets/images/logotest.png" alt="B3C Logo">
                     </a>                    
                 </div>
-
             </div>
         </div>
     </footer>
-
-    <!--Bootstrap Java-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <!--/.bootstrap java-->
 </body>
 </html>
