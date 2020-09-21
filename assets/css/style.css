@@ -102,7 +102,8 @@ div, nav, ul, li, img, i, a, p {
     padding: 0;
 }
 
-@media (min-width: 1200px) and (min-height: 760px) {
+/* 720p Displays */
+@media (min-width: 1280px) and (min-height: 720px) {
     .welcome-text {
         font-size: 4em;
     }
@@ -129,7 +130,8 @@ div, nav, ul, li, img, i, a, p {
     font-size: 1em;
 }
 
-@media (min-width: 1200px) and (min-height: 760px) {
+/* 720p Displays */
+@media (min-width: 1280px) and (min-height: 720px) {
     .welcome-quote {
         font-size: 1.5em;        
     }
@@ -201,6 +203,7 @@ div, nav, ul, li, img, i, a, p {
     box-shadow: 5px 5px rgba(0,0,0,0.25);    
 }
 
+/* 1024/1366 x 768 Displays (eg iPad, older laptops)*/
 @media (min-width: 768px) {
     .cta-image-width {
         width: 1500px;
@@ -212,13 +215,39 @@ div, nav, ul, li, img, i, a, p {
     }
 }
 
-@media (max-width: 992px) {
-    .cta-image .hidden {
-        display: flex;
+/* iPhone 6/7/8, X/XS */
+@media (width: 812px) and (height: 375px), (width: 667px) and (height: 375px) {
+    .cta-image-width {
+        width: 531px;
     }
 
-    .tint {
-    background-color: rgba(0,0,0,0.25);
+    .cta-image {
+        max-height: 354px;
+        max-width: 531px;
+    }
+}
+
+/* Galaxy S10e, S9, S9+ */
+@media (width: 760px) and (height: 360px), (max-width: 740px) and (max-height: 360px) {
+    .cta-image-width {
+        width: 510px;
+    }
+
+    .cta-image {
+        max-height: 340px;
+        max-width: 510px;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media (width: 736px) and (height: 414px) {
+    .cta-image-width {
+        width: 591px;
+    }
+
+    .cta-image {
+        max-height: 394px;
+        max-width: 591px;
     }
 }
 
@@ -227,12 +256,21 @@ div, nav, ul, li, img, i, a, p {
 }
 
 .cta-image-text {
-    font-size: 2em;
+    font-size: 1.5em;
     align-items: center;
     justify-content: center;
 }
 
+/* Bootstrap L Breakpoint */
 @media (max-width: 992px) {
+    .cta-image .hidden {
+        display: flex;
+    }
+
+    .tint {
+    background-color: rgba(0,0,0,0.25);
+    }
+
     .cta-image-text {
         font-size: 1.5em;
     }
