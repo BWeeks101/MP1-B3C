@@ -56,14 +56,6 @@ div, nav, ul, li, img, i, a, p {
 .hidden {
     display: none;
 }
-
-.align-text-left {
-    text-align: left;
-}
-
-.align-text-right {
-    text-align: right;
-}
 /*........../.set page defaults*/
 
 
