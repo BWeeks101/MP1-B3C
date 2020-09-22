@@ -116,13 +116,31 @@ div, nav, ul, li, img, i, a, p {
     position: absolute;
     top: 0;
     left: 0;
+    max-height: 65px;
     width: 100%;
     padding: 5px 5px 10px;
+    z-index: 1;
+    align-items: flex-start;
+}
+
+.divider {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
     border-bottom: solid 1px #4F483A;
 }
 
 .logo {
-    height: 33px;
+    height: 40px;
+}
+
+.navbar-expand-md {
+    padding: 5px 0;
+}
+
+.navbar-collapse {
+    height: 40px;
 }
 /*........../.header*/
 
@@ -238,8 +256,14 @@ div, nav, ul, li, img, i, a, p {
     }
 }
 
+@media (max-width: 768px) {
+    .header-nav-list {
+        background-color: rgba(0,0,0,0.5);
+    }
+}
+
 /* 1024/1366 x 768 Displays (eg iPad landscape, older laptops)*/
-@media (min-width: 768px) {
+@media (min-width: 768px) {    
     .cta-image-width {
         width: 1500px;
     }
