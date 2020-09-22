@@ -108,21 +108,13 @@ div, nav, ul, li, img, i, a, p {
 
 
 /*..........Header*/
-.header-row {
-    position: absolute;
-    top: 0;
-    left: 0;
+.header-nav {
     padding: 5px 5px 10px;
-    width: 100%;
     border-bottom: solid 1px #4F483A;
 }
 
 .logo {
     height: 33px;
-}
-
-.header-nav-container {
-    text-align: right;
 }
 /*........../.header*/
 
