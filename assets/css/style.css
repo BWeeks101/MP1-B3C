@@ -190,22 +190,6 @@ div, nav, ul, li, img, i, a, p {
 .cta-image:hover .hidden {
     display: flex;
 }
-
-.menu-image {    
-    background: url("../images/zan-baldwin-C64YvmXO_QA-unsplash.jpg") no-repeat center center/cover;
-}
-
-.locations-image {    
-    background: url("../images/samuel-oakes-Fr_XUMvQ9AU-unsplash.jpg") no-repeat center center/cover;
-}
-
-.about-image {    
-    background: url("../images/matthew-gerrard-JQpe01ira0s-unsplash-resized.jpg") no-repeat center center/cover;
-}
-
-.contact-image {    
-    background: url("../images/mikey-harris-zasPTUnrWnI-unsplash.jpg") no-repeat center center/cover;
-}
 /*........../.body - cta*/
 
 
