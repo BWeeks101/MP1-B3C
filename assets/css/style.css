@@ -53,6 +53,10 @@ div, nav, ul, li, img, i, a, p {
     background-color: rgba(0,0,0,0.5);
 }
 
+.heavy-tint {
+    background-color: rgba(0,0,0,0.75);
+}
+
 .hidden {
     display: none;
 }
@@ -109,6 +113,10 @@ div, nav, ul, li, img, i, a, p {
 
 /*..........Header*/
 .header-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 5px 5px 10px;
     border-bottom: solid 1px #4F483A;
 }
