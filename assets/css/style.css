@@ -173,10 +173,12 @@ div, nav, ul, li, img, i, a, p {
     max-width: 510px;
     border-radius: 5%;
     box-shadow: 5px 5px rgba(0,0,0,0.25);    
+    overflow: hidden;
 }
 
-.cta-image-overlay, .cta-image-text {
-    border-radius: 5%;
+.cta-image img {
+    object-fit: cover;
+    width: 100%;
 }
 
 .cta-image-text {
