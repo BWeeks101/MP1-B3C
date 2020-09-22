@@ -258,7 +258,12 @@ div, nav, ul, li, img, i, a, p {
 
 @media (max-width: 768px) {
     .header-nav-list {
+        padding: 5px;
         background-color: rgba(0,0,0,0.5);
+    }
+
+    .header-nav-list li {
+        padding: 5px;
     }
 }
 
