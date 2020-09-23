@@ -53,10 +53,6 @@ div, nav, ul, li, img, i, a, p {
     background-color: rgba(0,0,0,0.5);
 }
 
-.heavy-tint {
-    background-color: rgba(0,0,0,0.75);
-}
-
 .hidden {
     display: none;
 }
@@ -211,14 +207,27 @@ div, nav, ul, li, img, i, a, p {
     width: 100%;
 }
 
-.cta-image-text {
-    font-size: 1.5em;
+.cta-image-overlay {    
     align-items: center;
     justify-content: center;
 }
 
+.cta-image-text {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.cta-image-icon {
+    font-size: 1.4em;
+    margin-right: 5px;
+}
+
 .cta-image:hover .hidden {
     display: flex;
+}
+
+.cta-btn-icon {
+    margin-right: 5px;
 }
 /*........../.body - cta*/
 
@@ -448,13 +457,6 @@ div, nav, ul, li, img, i, a, p {
     .header-nav-tint {
         background-color: transparent;
     }
-}
-
-/* Bootstrap L (Max) Breakpoint - 992px */
-@media (max-width: 991px) { 
-    .cta-image-text {
-        font-size: 1.5em;
-    }   
 }
 
 /* Bootstrap L (Min) Breakpoint - 992px */
