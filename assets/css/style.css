@@ -1,10 +1,11 @@
 /*..........Set page defaults*/
-*, body {
+body {
     margin: 0;
     padding: 0;
     background-color: #4F483A;
     color: #fafafa;
     font-family: 'Roboto Mono', monospace;
+    height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -250,7 +251,7 @@ div, nav, ul, li, img, i, a, p {
 .footer-divider {
     margin-bottom: 10px;
     width: 100%;
-    color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.8);
     z-index: 1;
 }
 
@@ -528,35 +529,38 @@ div, nav, ul, li, img, i, a, p {
     .cta-text-col-left {
         order: 1;
         text-align: left !important;
+        min-height: 290px;
     }
 
     .cta-text-col-right {
         order: 0;
         text-align: right !important;
+        min-height: 290px;
     }
 
     .cta-flex-left {
         justify-content: flex-start !important;
+        min-height: 290px;
     }
 
     .cta-flex-right {
         justify-content: flex-end !important;
+        min-height: 290px;
     }    
 
-    .cat-btn-left {
+    .cta-btn-left {
         align-self: flex-start !important;
     }
 
-    .cat-btn-right {
+    .cta-btn-right {
         align-self: flex-end !important;
     }
 
-    .cta-text-wrapper h4 {
-        font-size: 1.75em;
-    }
-    
-    .cta-text-wrapper p {
-        font-size: 1.25em;
+    .cta-text-wrapper {
+        min-height: 290px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .cta-image-text {
@@ -566,18 +570,6 @@ div, nav, ul, li, img, i, a, p {
     .cta-image-icon {
         font-size: 1.65em;
     }
-
-    .cta-btn {
-        width: 375px;
-    }
-
-    .cta-btn-text {
-        font-size: 1.25em;
-    }
-
-    .cta-btn-icon {
-        font-size: 1.15em;
-    }    
 }
 /*........./.media queries*/
 
