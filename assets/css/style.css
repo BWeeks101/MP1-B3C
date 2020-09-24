@@ -112,20 +112,26 @@ div, nav, ul, li, img, i, a, p {
     position: absolute;
     top: 0;
     left: 0;
-    max-height: 65px;
+    height: 65px;
     width: 100%;
-    padding: 5px 5px 10px;
+    padding: 5px 5px;
     z-index: 2;
     align-items: flex-start;
 }
 
-.divider {
+.header-divider {
     position: absolute;
     top: 65px;
     left: 0;
     width: 100%;
+    padding: 0 5px;
+    color: #4F483A;
     z-index: 1;
-    border-bottom: solid 1px #4F483A;
+}
+
+.header-divider hr {
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -141,7 +147,7 @@ div, nav, ul, li, img, i, a, p {
 }
 
 .header-nav-tint {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .header-nav-link-text {
@@ -156,17 +162,12 @@ div, nav, ul, li, img, i, a, p {
 .header-nav-link-text {
     font-size: 1.25em;
 }
-
 /*........../.header*/
 
 
 /*..........Body - CTA*/
-.top-cta {
-    margin-top: 30px;
-}
-
-.bottom-cta {
-    margin-bottom: 30px;
+.cta-row {
+    margin: 30px 0;
 }
 
 .cta-container {
@@ -176,7 +177,7 @@ div, nav, ul, li, img, i, a, p {
 
 .cta-text-wrapper {
     width: 100%;
-    min-width: 354px;
+    min-width: 265px;
     max-width: 1500px;
 }
 
@@ -237,15 +238,29 @@ div, nav, ul, li, img, i, a, p {
     padding: 0;
     font-size: 1em;
 }
-
 /*........../.body - cta*/
 
 
 /*..........Footer*/
-.footer-row {
+.footer-container {
+    position: relative;
     padding: 10px 5px;
+}
+
+.footer-divider {
+    margin-bottom: 10px;
     width: 100%;
-    border-top: solid 1px rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.footer-row {
+    width: 100%;
+}
+
+.footer-divider hr {
+    margin: 0;
+    padding: 0;
 }
 
 .social-media-row .col-auto h5 {
@@ -253,22 +268,27 @@ div, nav, ul, li, img, i, a, p {
     padding: 0;
     font-weight: 500;
 }
+
+.footer-logo {
+    text-align: right;
+}
 /*........../.footer*/
 
 
 /*.........Media Queries*/
 
-/* iPhone 5/SE Portrait - 568px x 320px */
+/* iPhone 5/SE Portrait - 320px x 568px */
 @media (min-width: 320px) {
-    .header-nav-tint {
-        background-color: rgba(0,0,0,0.8);
+    .header-nav {
+        padding: 5px 10px;
     }
-}
 
-/* Galaxy S5, Moto G4, iPhone 6/7/8/X/XS Portrait - 640px/667px x 360px/375px*/
-@media (min-width: 360px) {
-    .header-nav-tint {
-        background-color: rgba(0,0,0,0.5);
+    .header-divider {
+        padding: 0 10px;
+    }
+
+    .footer-container {
+        padding: 10px 10px;
     }
 }
 
@@ -282,10 +302,6 @@ div, nav, ul, li, img, i, a, p {
         max-height: 300px;
         max-width: 450px;
     }
-
-    .header-nav-tint {
-        background-color: rgba(0,0,0,0.8);
-    }
 }
 
 /* Galaxy S5, Moto G4 Landscape - 640px x 360px */
@@ -297,10 +313,6 @@ div, nav, ul, li, img, i, a, p {
     .cta-image {
         max-height: 340px;
         max-width: 510px;
-    }
-
-    .header-nav-tint {
-        background-color: rgba(0,0,0,0.8);
     }
 }
 
@@ -314,10 +326,6 @@ div, nav, ul, li, img, i, a, p {
         max-height: 260px;
         max-width: 390px;
     }
-
-    .header-nav-tint {
-        background-color: rgba(0,0,0,0.8);
-    }
 }
 
 /* iPhone 6/7/8 Landscape - 667px x 375px*/
@@ -329,10 +337,6 @@ div, nav, ul, li, img, i, a, p {
     .cta-image {
         max-height: 354px;
         max-width: 531px;
-    }
-
-    .header-nav-tint {
-        background-color: rgba(0,0,0,0.8);
     }
 }
 
@@ -346,10 +350,6 @@ div, nav, ul, li, img, i, a, p {
         max-height: 460px;
         max-width: 690px;
     }
-
-    .header-nav-tint {
-        background-color: rgba(0,0,0,0.5);
-    }
 }
 
 /* iPhone 6/7/8 Plus, Pixel 2 Landscape - 731px/736px x 411px/414px */
@@ -362,10 +362,6 @@ div, nav, ul, li, img, i, a, p {
         max-height: 394px;
         max-width: 591px;
     }
-
-    .header-nav-tint {
-        background-color: rgba(0,0,0,0.5);
-    }
 }
 
 /* Galaxy S9/S9+, S10e Landscape - 740px/760px x 360px*/
@@ -377,10 +373,6 @@ div, nav, ul, li, img, i, a, p {
     .cta-image {
         max-height: 340px;
         max-width: 510px;
-    }
-
-    .header-nav-tint {
-        background-color: rgba(0,0,0,0.8);
     }
 }
 
@@ -406,6 +398,14 @@ div, nav, ul, li, img, i, a, p {
 
 /* Bootstrap M (Min) Breakpoint - 768px */
 @media (min-width: 768px) {
+    .navbar-collapse {
+        height: 40px;
+    }
+
+    .header-nav-tint {
+        background-color: transparent;
+    }
+
     .welcome-logo {
         height: 75px;
     }
@@ -427,12 +427,8 @@ div, nav, ul, li, img, i, a, p {
         font-size: 0.85em;
     }
 
-    .navbar-collapse {
-        height: 40px;
-    }
-
-    .header-nav-tint {
-        background-color: transparent;
+    .footer-divider {
+        bottom: 60px;
     }
 }
 
@@ -499,7 +495,7 @@ div, nav, ul, li, img, i, a, p {
     }
 }
 
-/* Bootstrap L (Min) Breakpoint - 1200px */
+/* Bootstrap XL (Min) Breakpoint - 1200px */
 @media (min-width: 1200px) {
     .welcome-text {
         font-size: 4em;
@@ -511,38 +507,77 @@ div, nav, ul, li, img, i, a, p {
 
     .welcome-quote-container {
         padding-bottom: 30px;
-    }
+    }    
 }
 
 /* 1080p Breakpoint - 1920px x 1080px */
 @media (min-width: 1920px) {
+    .cta-row>.col-12 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .cta-image-col-left {
+        order: 1;
+    }
+
+    .cta-image-col-right {
+        order: 0;
+    }
+
+    .cta-text-col-left {
+        order: 1;
+        text-align: left !important;
+    }
+
+    .cta-text-col-right {
+        order: 0;
+        text-align: right !important;
+    }
+
+    .cta-flex-left {
+        justify-content: flex-start !important;
+    }
+
+    .cta-flex-right {
+        justify-content: flex-end !important;
+    }    
+
+    .cat-btn-left {
+        align-self: flex-start !important;
+    }
+
+    .cat-btn-right {
+        align-self: flex-end !important;
+    }
+
     .cta-text-wrapper h4 {
-        font-size: 2em;
+        font-size: 1.75em;
     }
     
     .cta-text-wrapper p {
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
 
     .cta-image-text {
-        font-size: 2em;
+        font-size: 1.75em;
     }
 
     .cta-image-icon {
-        font-size: 1.9em;
+        font-size: 1.65em;
     }
 
     .cta-btn {
         width: 375px;
     }
 
-    .cta-btn-icon {
-        font-size: 1.4em;
+    .cta-btn-text {
+        font-size: 1.25em;
     }
 
-    .cta-btn-text {
-        font-size: 1.5em;
-    }
+    .cta-btn-icon {
+        font-size: 1.15em;
+    }    
 }
 /*........./.media queries*/
 
