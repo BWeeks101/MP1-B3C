@@ -1,0 +1,22 @@
+/*..........Header Override*/
+.header-divider hr {
+    filter: brightness(150%);
+}
+/*..........Header Override*/
+
+/*..........Page Title*/
+.title-container {
+    margin-top: 75px;
+    left: 0;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.title-wrapper {
+    display: inline-block;
+}
+
+.title-text {
+    border-bottom: solid 1px 
+}
+/*........../.page title*/
