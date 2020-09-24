@@ -529,23 +529,23 @@ div, nav, ul, li, img, i, a, p {
     .cta-text-col-left {
         order: 1;
         text-align: left !important;
-        min-height: 290px;
+        min-height: 187px;
     }
 
     .cta-text-col-right {
         order: 0;
         text-align: right !important;
-        min-height: 290px;
+        min-height: 187px;
     }
 
     .cta-flex-left {
         justify-content: flex-start !important;
-        min-height: 290px;
+        min-height: 187px;
     }
 
     .cta-flex-right {
         justify-content: flex-end !important;
-        min-height: 290px;
+        min-height: 187px;
     }    
 
     .cta-btn-left {
@@ -557,7 +557,7 @@ div, nav, ul, li, img, i, a, p {
     }
 
     .cta-text-wrapper {
-        min-height: 290px;
+        min-height: 187px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
