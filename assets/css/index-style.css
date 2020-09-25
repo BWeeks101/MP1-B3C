@@ -47,7 +47,7 @@
 
 /*..........Body - CTA*/
 .cta-row {
-    margin: 30px 0;
+    margin: 15px 0;
 }
 
 .cta-container {
@@ -78,7 +78,7 @@
     min-width: 240px;
     max-height: 340px;
     max-width: 510px;
-    border-radius: 5%;
+    border-radius: 15px;
     box-shadow: 5px 5px rgba(0,0,0,0.10);    
     overflow: hidden;
 }

@@ -14,8 +14,25 @@
         padding: 5px 10px;
     }
 
+    .carousel-container {
+        padding: 5px 10px;
+    }
+
     .footer-container {
-        padding: 10px 10px;
+        padding: 0 10px;
+    }
+}
+
+/* Pixel 2 Portrait - 411px x 736px */
+@media (min-width: 447px) {
+    .menu-content-header-spacer-col {
+        height: 100px
+    }
+}
+
+/* Menu.html - carousel-control height adjustment */
+    .menu-container ul li, .menu-container ul li h6 {
+        font-size: 1em;
     }
 }
 
@@ -154,6 +171,10 @@
         font-size: 0.85em;
     }
 
+    .cakes-list {
+        column-count: 2;
+    }
+
     .footer-divider {
         bottom: 60px;
     }
@@ -212,6 +233,10 @@
 
     .header-nav-link-text {
         font-size: 1.4em;
+    }
+
+    .cakes-list {
+        column-count: 4;
     }
 }
 
