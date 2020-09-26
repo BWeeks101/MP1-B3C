@@ -133,4 +133,17 @@
     padding: 0 5px 0 0;
 }
 
+.menu-divider {
+    width: 100%;
+    margin-bottom: 15px;
+    
+    z-index: 100;
+}
+
+.menu-divider hr {
+    margin: 0;
+    padding: 0;
+    border-top: solid 1px #4F483A;
+    filter: brightness(150%);
+}
 /*........../.menu*/

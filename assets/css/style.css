@@ -57,6 +57,13 @@ div, nav, ul, li, img, i, a, p {
 .hidden {
     display: none;
 }
+
+/*..........Bootstrap Override*/
+.btn-info {
+    color: #fafafa;
+}
+/*........../.bootstrap override*/
+
 /*........../.set page defaults*/
 
 /*..........Header*/
@@ -162,11 +169,11 @@ stronger blue:
 #3F7AB8;
 
 Colour Palette:
-#82765F;
-#4F483A;
-#CFBC97;
-#DBC8A0;
-#B5A584;
+#82765F; Light Brown
+#4F483A; Background Colour
+#CFBC97; Light Cream
+#DBC8A0; Lighter Cream?
+#B5A584; Med Cream
 
 Heading Fonts:
 font-family: 'Roboto Slab', serif;
