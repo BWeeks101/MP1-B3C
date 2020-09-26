@@ -65,20 +65,24 @@
         </header>
 
         <section>
+            <!--Carousel-->
             <div class="container-fluid carousel-container">
                 <div id="menuCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!--Carousel Nav-->
                     <nav class="carousel-control">
                         <ol class="carousel-indicators">
                             <li data-target="#menuCarousel" data-slide-to="0" class="active"><div class="underline text-center"><i class="fas fa-cookie-bite carousel-indicators-icon"></i><h2 class="d-inline-block carousel-indicators-text">Food</h2></div></li>
                             <li data-target="#menuCarousel" data-slide-to="1"><div class="underline text-center"><i class="fas fa-coffee carousel-indicators-icon"></i><h2 class="d-inline-block carousel-indicators-text">Drink</h2></div></li>
                         </ol>
                     </nav>
+                    <!--/carousel nav-->
 
+                    <!--Carousel Content-->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="d-block w-100 container-fluid menu-container">
                                 <div class="row menu-content-row">
-                                    <div class="d-none d-md-block col-md-3 image-col">
+                                    <div class="d-none d-md-block col-md-3 image-col" id="image-col-left">
                                         <div class="image-wrapper">
                                             <img src="assets/images/nathan-dumlao-z3em1GBRhvY-unsplash.jpg" alt="Pastries & Coffee">
                                         </div>
@@ -93,7 +97,7 @@
                                                     <div class="col-12 menu-sub-col">
                                                         <h5 class="d-inline-block underline">Savoury</h5>
                                                     </div>
-                                                    <div class="col-12 order-1 col-xl-4 menu-sub-col">                                                    
+                                                    <div class="col-12 col-xl-4 menu-sub-col">                                                    
                                                         <ul>
                                                             <li>Bacon Bap</li>
                                                             <li>Tuna Melt Panini</li>
@@ -102,14 +106,14 @@
                                                             <li>BLT Sandwich</li>
                                                         </ul>
                                                     </div>
-                                                    <div class="col-12 order-2 order-md-3 col-xl-4 order-xl-2 menu-sub-col">
+                                                    <div class="col-12 col-xl-4 menu-sub-col">
                                                         <ul>                                                        
                                                             <li>Chargrilled Chicked Salad Sandwich</li>
                                                             <li>Free Range Egg Mayo Sandwich</li>
                                                             <li>Smoked Salmon & Soft Cheese Sandwich</li>
                                                         </ul>
                                                     </div>
-                                                    <div class="col-12 order-3 order-md-2 col-xl-4 order-xl-3 menu-sub-col">
+                                                    <div class="col-12 col-xl-4 menu-sub-col">
                                                         <ul>
                                                             <li>Ploughmans Sandwich</li>
                                                             <li>Ham & Mustard Sandwich</li>
@@ -127,6 +131,11 @@
                                                     <li>Malted Bloomer Toast</li>
                                                     <li>Toasted Teacake</li>
                                                 </ul>
+                                            </div>
+                                            <div class="col-12 d-md-none menu-image-col-left">
+                                                <div class="image-wrapper">
+                                                    <img src="assets/images/nathan-dumlao-z3em1GBRhvY-unsplash-resized.jpg" alt="Pastries & Coffee">
+                                                </div>
                                             </div>                                                                                
                                             <div class="col-12 col-md-6" id="pastries-col">
                                                 <div class="d-none d-xl-block menu-divider"><hr></div>
@@ -174,7 +183,7 @@
                                                     </div>
                                                 </div>
                                             </div>                                        
-                                            <div class="col-12 menu-image-col">
+                                            <div class="col-12 menu-image-col-left">
                                                 <div class="image-wrapper">
                                                     <img src="assets/images/ibrahim-boran-weg93vRGgGk-unsplash-resized.jpg" alt="Cakes">
                                                 </div>
@@ -184,47 +193,237 @@
                                                     <div class="col-12 menu-sub-col menu-header-col">
                                                         <h5 class="d-inline-block underline">Cakes</h5>
                                                     </div>
-                                                    <div class="col-12 order-1 col-md-6 col-xl-3 menu-sub-col">                                            
+                                                    <div class="col-12 col-md-6 menu-sub-col menu-sub-container-col">
+                                                        <div class="row">
+                                                            <div class="col-12 col-xl-6 menu-sub-col">                                            
+                                                                <ul>
+                                                                    <li>Eton Mess</li>
+                                                                    <li>Belgian Chocolate</li>
+                                                                    <li>Blackcurrant Crumble</li>
+                                                                    <li>Coffee Cake</li>
+                                                                    <li>Caramel Shortbread</li>
+                                                                    <li>Carrot & Walnut Cake</li>                                        
+                                                                    <li>Mini Jam Doughnuts</li>
+                                                                    <li>Chocolate Crunch</li>                                              
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-12 col-xl-6 menu-sub-col">                            
+                                                                <ul>
+                                                                    <li>Cookies and Cream Slice</li>
+                                                                    <li>Portugese Tart</li>
+                                                                    <li>Lemon & Blueberry Cheesecake</li>
+                                                                    <li>White Chocolate Chai Blondie</li>
+                                                                    <li>Lotus Biscoff Cheesecake</li>
+                                                                    <li>Maple Syrup Flapjack</li>                                                
+                                                                    <li>Bosco Cheesecake</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 menu-sub-col menu-sub-container-col">
+                                                        <div class="row">
+                                                            <div class="col-12 col-xl-6 menu-sub-col">                                            
+                                                                <ul>
+                                                                    <li>Blackforest Almond Bakewell</li>
+                                                                    <li>Raspberry Portugese Tart</li>
+                                                                    <li>Blueberry Muffin</li>
+                                                                    <li>Chocolate Muffin</li>
+                                                                    <li>White Chocolate & Raspberry Muffin</li>
+                                                                    <li>Double Chocolate Muffin</li>                                                
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-12 col-xl-6 menu-sub-col">
+                                                                <ul>
+                                                                    <li>Guinness Cake</li>
+                                                                    <li>Triple Chocolate Brownie</li>
+                                                                    <li>Victoria Sponge</li>
+                                                                    <li>Welsh Cake</li>
+                                                                    <li>Chocolate Cup Cake</li>
+                                                                    <li>Lemon Drizzle Cup Cake</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>
+                                                    </div>                                                    
+                                                </div>
+                                            </div>                                
+                                        </div>                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block w-100 container-fluid menu-container">
+                                <div class="row menu-content-row">
+                                    <div class="d-none d-md-block col-md-3 image-col order-12" id="image-col-right">
+                                        <div class="image-wrapper">
+                                            <img src="assets/images/nathan-dumlao-c2Y16tC3yO8-unsplash.jpg" alt="Coffee & Green Leaves">
+                                        </div>
+                                    </div>                                
+                                    <div class="col main-col">
+                                        <div class="row no-gutters menu-content-header-row">
+                                            <div class="col-12 menu-content-header-spacer-col"></div>
+                                        </div>
+                                        <div class="row menu-content-row text-center text-md-left">
+                                            <div class="col-12 col-md-6" id="coffees-col">
+                                                <div class="row">
+                                                    <div class="col-12 menu-sub-col">
+                                                        <h5 class="d-inline-block underline">Coffees</h5>
+                                                    </div>
+                                                    <div class="col-12 col-xl-6 menu-sub-col">                                                    
                                                         <ul>
-                                                            <li>Eton Mess</li>
-                                                            <li>Belgian Chocolate</li>
-                                                            <li>Blackcurrant Crumble</li>
-                                                            <li>Coffee Cake</li>
-                                                            <li>Caramel Shortbread</li>
-                                                            <li>Carrot & Walnut Cake</li>                                        
-                                                            <li>Mini Jam Doughnuts</li>
-                                                            <li>Chocolate Crunch</li>                                              
+                                                            <li>Latte</li>
+                                                            <li>Cappuccino</li>
+                                                            <li>Flat White</li>
+                                                            <li>Americano</li>
+                                                            <li>Espresso</li>
                                                         </ul>
                                                     </div>
-                                                    <div class="col-12 order-2 col-md-6 order-md-3 col-xl-3 order-xl-2 menu-sub-col">                            
+                                                    <div class="col-12 col-xl-6 menu-sub-col">
+                                                        <ul>                                                        
+                                                            <li>Macchiato</li>                                                            
+                                                            <li>Caramel Macchiato</li>
+                                                            <li>Vanilla Latte</li>
+                                                            <li>Gingerbread Latte</li>
+                                                        </ul>
+                                                    </div>                                                    
+                                                </div>                                       
+                                            </div>
+                                            <div class="col-12 col-md-6" id="tea-col">
+                                                <div class="row">
+                                                    <div class="col-12 menu-sub-col">
+                                                        <h5 class="d-inline-block underline">Tea</h5>
+                                                    </div>
+                                                    <div class="col-12 col-xl-6 menu-sub-col">                                                        
+                                                        <p><em>Loose leaf tea</em></p>                                     
                                                         <ul>
-                                                            <li>Cookies and Cream Slice</li>
-                                                            <li>Portugese Tart</li>
-                                                            <li>Lemon & Blueberry Cheesecake</li>
-                                                            <li>White Chocolate Chai Blondie</li>
-                                                            <li>Lotus Biscoff Cheesecake</li>
-                                                            <li>Maple Syrup Flapjack</li>                                                
-                                                            <li>Bosco Cheesecake</li>
+                                                            <li>Seasonal</li>
+                                                            <li>English Breakfast</li>
+                                                            <li>Decaf Breakfast</li>
+                                                            <li>Earl Grey</li>
                                                         </ul>
                                                     </div>
-                                                    <div class="col-12 order-3 col-md-6 order-md-2 col-xl-3 order-xl-3 menu-sub-col">                                            
+                                                    <div class="col-12 col-xl-6 menu-sub-col">                                            
                                                         <ul>
-                                                            <li>Blackforest Almond Bakewell</li>
-                                                            <li>Raspberry Portugese Tart</li>
-                                                            <li>Blueberry Muffin</li>
-                                                            <li>Chocolate Muffin</li>
-                                                            <li>White Chocolate & Raspberry Muffin</li>
-                                                            <li>Double Chocolate Muffin</li>                                                
+                                                            <li>Green Tea</li>
+                                                            <li>Triple Mint</li>                                                
+                                                            <li>Red Berry & Hibiscus</li>
+                                                            <li>Rooibos</li>
                                                         </ul>
                                                     </div>
-                                                    <div class="col-12 order-4 col-md-6 col-xl-3 menu-sub-col">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-12 d-md-none menu-image-col-right">
+                                                <div class="image-wrapper">
+                                                    <img src="assets/images/nathan-dumlao-c2Y16tC3yO8-unsplash-resized.jpg" alt="Coffee & Green Leaves">
+                                                </div>
+                                            </div>                                                                                
+                                            <div class="col-12 col-md-6 col-xl-3" id="filter-col">
+                                                <h5 class="d-inline-block underline">Filter Coffee</h5>                                                
+                                                <ul>
+                                                    <li>Columbian</li>
+                                                    <li>Ethiopian</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-xl-3" id="chocolate-col">
+                                                <h5 class="d-inline-block underline">Hot Chocolate</h5>                                                
+                                                <ul>
+                                                    <li>Hot Chocolate</li>
+                                                    <li>White Chocolate</li>
+                                                    <li>Hot Chocolate Deluxe</li>
+                                                    <li>White Chocolate Deluxe</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-xl-3" id="mocha-col">
+                                                <h5 class="d-inline-block underline">Mochas</h5>                                                
+                                                <ul>
+                                                    <li>Mocha</li>
+                                                    <li>White Mocha</li>
+                                                    <li>Mocha Deluxe</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-xl-3" id="juices-col">
+                                                <h5 class="d-inline-block underline">Juices</h5>                                                
+                                                <ul>
+                                                    <li>Orange Juice</li>
+                                                    <li>Apple Juice</li>
+                                                    <li>Grapefruit Juice</li>
+                                                    <li>Pomegranate Juice</li>
+                                                </ul>
+                                            </div>                                        
+                                            <div class="col-12 menu-image-col-right">
+                                                <div class="image-wrapper">
+                                                    <img src="assets/images/nathan-dumlao-KixfBEdyp64-unsplash-resized.jpg" alt="Coffee, Beans & Grounds">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6" id="frappe-col">
+                                                <div class="row">
+                                                    <div class="col-12 menu-sub-col">
+                                                        <h5 class="d-inline-block underline">Frappés</h5>
+                                                    </div>
+                                                    <div class="col-12 col-xl-6 menu-sub-col">                                            
                                                         <ul>
-                                                            <li>Guinness Cake</li>
-                                                            <li>Triple Chocolate Brownie</li>
-                                                            <li>Victoria Sponge</li>
-                                                            <li>Welsh Cake</li>
-                                                            <li>Chocolate Cup Cake</li>
-                                                            <li>Lemon Drizzle Cup Cake</li>
+                                                            <li>Chocolate</li>
+                                                            <li>Strawberry</li>
+                                                            <li>Mint Chocolate</li>                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-12 col-xl-6 menu-sub-col">                                            
+                                                        <ul>
+                                                            <li>Espresso</li>
+                                                            <li>Mocha</li>
+                                                            <li>Vanilla</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 col-md-6" id="bottled-col">
+                                                <div class="row">
+                                                    <div class="col-12 menu-sub-col">
+                                                        <h5 class="d-inline-block underline">Bottled Drinks</h5>
+                                                    </div>
+                                                    <div class="col-12 col-xl-6 menu-sub-col">                                            
+                                                        <ul>
+                                                            <li>Still Water</li>
+                                                            <li>Sparkling Water</li>
+                                                            <li>Summer Berry</li>                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-12 col-xl-6 menu-sub-col">                                            
+                                                        <ul>
+                                                            <li>Traditional Lemonade</li>                                                            
+                                                            <li>Raspberry Lemonade</li>
+                                                            <li>Elderflower Pressé</li>                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12" id="extras-col">
+                                                <div class="d-none d-xl-block menu-divider"><hr></div>
+                                                <div class="row">
+                                                    <div class="col-12 menu-sub-col menu-header-col">
+                                                        <h5 class="d-inline-block underline">Extras</h5>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-xl-3 menu-sub-col">
+                                                        <ul>
+                                                            <li>Espresso Shot</li>
+                                                            <li>Marshmallows</li>
+                                                            <li>Whipped Cream</li>                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-12 order-2 col-md-6 order-md-3 col-xl-3 order-xl-2 menu-sub-col">
+                                                        <ul>
+                                                            <li>Oat Milk</li>
+                                                            <li>Coconut Milk</li>
+                                                            <li>Soya Milk</li>                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-12 order-3 col-md-6 order-md-2 col-xl-6 order-xl-3 menu-sub-col">
+                                                        <ul>
+                                                            <li>Syrups</li>
+                                                            <li>Sugar Free Syrups</li>
+                                                            
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -234,16 +433,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="assets/images/logotest.png" alt="Chicago" style="width:100%;">
-                        </div>
                     </div>
+                    <!--/.carousel content-->
                 </div>
             </div>
+            <!--/.carousel-->
         </section>
     </div>
 
     <footer>
+        <!--Footer-->
         <div class="container-fluid footer-container">
             <div class="footer-divider"><hr></div>
             <div class="row no-gutters justify-content-center justify-content-md-end align-items-center">                
@@ -280,9 +479,12 @@
                 </div>
             </div>
         </div>
+        <!--/.footer-->
     </footer>
+     <!--Bootstrap Javascript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <!--./bootstrap javascript-->
 </body>
 </html>

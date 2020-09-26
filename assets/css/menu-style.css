@@ -104,9 +104,15 @@
     padding: 0;
 }
 
-.image-col {
+#image-col-left {
     padding: 0 15px 35px 0;
 }
+
+#image-col-right {
+    margin-right: 5px;
+    padding: 0 0 35px 10px;
+}
+
 .image-col .image-wrapper {
     height: 100%;
 }
@@ -121,6 +127,11 @@
     margin-bottom: 30px;
 }
 
+.menu-sub-container-col {
+    margin: 0;
+    padding: 0;
+}
+
 #savoury-col, #pastries-col, #snacks-col, #cakes-col {
     padding: 0;
 }
@@ -129,8 +140,21 @@
     padding: 0;
 }
 
-.menu-image-col {
+#coffees-col, #tea-col, #frappe-col, #bottled-col, #extras-col {
+    padding: 0;
+}
+
+#coffees-col .row, #tea-col .row, #frappe-col .row, #bottled-col .row, #extras-col .row {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-image-col-left {
     padding: 0 5px 0 0;
+}
+
+.menu-image-col-right {
+    padding: 0 0 0 5px;
 }
 
 .menu-divider {
