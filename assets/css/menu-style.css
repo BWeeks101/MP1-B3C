@@ -1,21 +1,19 @@
 /*..........Header Override*/
+.header-nav, .header-divider {
+    position: relative;
+    top: 0;
+}
+
 .header-divider hr {
     filter: brightness(150%);
 }
 /*........../.header override*/
 
-/*..........Footer Override*/
-.footer-container {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
-/*........../.footer override*/
-
 /*..........Page Title*/
 .title-container {
+    position: absolute;
+    top: 0;
     margin-top: 75px;
-    left: 0;
     width: 100%;
     padding: 5px 5px;
 }
@@ -29,15 +27,18 @@
 
 /*..........Menu*/
 .carousel-container {
-    position: absolute;
-    top: 0px;
-    margin-top: 75px;
+    margin-top: 15px;
     padding: 5px 5px;
 }
 
 .carousel-inner {
-    position: absolute; 
-    top: 5px;   
+    top: 5px;
+}
+
+.carousel-spacer {
+    position: relative;
+    bottom: 0;
+    height: 61px;
 }
 
 .carousel-control {
@@ -99,17 +100,21 @@
     width: 100%;
 }
 
-.image-col, .main-col {
+.main-col {
     padding: 0;
 }
 
 .image-col {
-    padding-bottom: 5px;
+    padding: 0 15px 35px 0;
+}
+.image-col .image-wrapper {
+    height: 100%;
 }
 
-.image-col img {
+.image-wrapper {
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0,0,0,0.10);
+    overflow: hidden;
 }
 
 .menu-container .col-12:not(.menu-sub-col) {
@@ -123,4 +128,9 @@
     margin: 0;
     padding: 0;
 }
+
+.menu-image-col {
+    padding: 0 5px 0 0;
+}
+
 /*........../.menu*/

@@ -171,10 +171,6 @@
         font-size: 0.85em;
     }
 
-    .cakes-list {
-        column-count: 2;
-    }
-
     .footer-divider {
         bottom: 60px;
     }
@@ -235,9 +231,6 @@
         font-size: 1.4em;
     }
 
-    .cakes-list {
-        column-count: 4;
-    }
 }
 
 /* iPad Pro Portrait - 1024px x 1366px */
