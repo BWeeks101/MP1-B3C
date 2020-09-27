@@ -32,7 +32,7 @@
 
 /* Menu.html - carousel-nav height adjustment */
 @media (min-width: 451px) {
-    .carousel-item-spacer-col {
+    .carousel-item-spacer {
         height: 145px
     }
 }
