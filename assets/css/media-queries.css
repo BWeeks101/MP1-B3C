@@ -11,11 +11,11 @@
     }
 
     .title-container {
-        padding: 5px 10px;
+        padding: 0 10px;
     }
 
     .carousel-container {
-        padding: 5px 10px;
+        padding: 0 10px;
     }
 
     .footer-container {
@@ -24,15 +24,16 @@
 }
 
 /* Pixel 2 Portrait - 411px x 736px */
-@media (min-width: 447px) {
-    .menu-content-header-spacer-col {
-        height: 100px
+@media (min-width: 411px) {
+    .menu-col ul li {
+        font-size: 1em;
     }
 }
 
-/* Menu.html - carousel-control height adjustment */
-    .menu-container ul li, .menu-container ul li h6 {
-        font-size: 1em;
+/* Menu.html - carousel-nav height adjustment */
+@media (min-width: 451px) {
+    .carousel-item-spacer-col {
+        height: 145px
     }
 }
 
