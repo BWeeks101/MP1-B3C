@@ -104,7 +104,9 @@ div, nav, ul, li, img, i, a, p {
 }
 
 .header-nav-tint {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(39,36,29,.95);
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    border-radius: 15px;
 }
 
 .header-nav-link-text {
