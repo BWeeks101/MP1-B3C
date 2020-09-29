@@ -1,3 +1,14 @@
+/*..........Header Override*/
+.header-nav {
+    position: absolute;
+}
+
+.header-divider {
+    position: absolute;
+    top: 65px;
+}
+/*........../.header override*/
+
 /*..........Hero Image*/
 .hero-image {    
     position: relative;

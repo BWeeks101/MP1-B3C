@@ -1,33 +1,10 @@
-/*..........Header Override*/
-.header-nav, .header-divider {
-    position: relative;
-    top: 0;
-}
-
-.header-divider hr {
-    filter: brightness(150%);
-}
-/*........../.header override*/
-
-
-/*..........Page Title*/
+/*..........Page Title Override*/
 .title-container {
     position: absolute;
-    top: 96px;
-    width: 100%;
-    padding: 0 5px;
+    margin-top: 0;
+    top: 96px;   
 }
-
-.title-text {
-    padding-bottom: 2px;
-    border-bottom: solid 1px;
-}
-
-.underline {
-    padding-bottom: 2px;
-    border-bottom: solid 1px #fafafa;
-}
-/*........../.page title*/
+/*........../.page title override*/
 
 
 /*..........Carousel*/

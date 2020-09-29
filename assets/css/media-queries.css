@@ -138,11 +138,7 @@
 
     .cta-image .hidden {
         display: flex;
-    }
-
-    .menu-image-col-left, .menu-image-col-right {
-        padding: 0 5px;
-    }
+    }    
 }
 
 /* Bootstrap M (Min) Breakpoint - 768px */
@@ -178,6 +174,10 @@
 
     .footer-divider {
         bottom: 60px;
+    }
+
+    #frappe-col, #bottled-col {
+        margin-bottom: 14px;
     }
 }
 
@@ -259,7 +259,7 @@
         padding-bottom: 30px;
     } 
 
-    #savoury-col, #toast-col, #frappe-col, #bottled-col {
+    #savoury-col, #toast-col {
         margin-bottom: 14px;
     }
 }
