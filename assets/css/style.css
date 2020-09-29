@@ -61,6 +61,11 @@ div, nav, ul, li, img, i, a, p {
 .btn-info {
     color: #fafafa;
 }
+
+.navbar-toggler, .btn {
+    border-radius: 15px;
+}
+
 /*........../.set page defaults*/
 
 /*..........Header*/

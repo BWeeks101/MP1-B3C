@@ -25,7 +25,7 @@
 
 /* Pixel 2 Portrait - 411px x 736px */
 @media (min-width: 411px) {
-    .menu-col ul li {
+    .menu-col ul li, .about-text-row p {
         font-size: 1em;
     }
 }
