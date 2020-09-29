@@ -283,13 +283,21 @@
     #savoury-col, #toast-col {
         margin-bottom: 14px;
     }
+
+    .locations-text h4 {
+        font-size: 1.75em;
+    }
+
+    .locations-text p {
+        font-size: 1.25em;
+    }
 }
 
 /* 1080p Breakpoint - 1920px x 1080px */
 @media (min-width: 1920px) {
     .cta-row>.col-12:not(.locations-col) {
         flex: 0 0 50%;
-        max-width: 50%;
+        max-width: 1070px;
     }
 
     .cta-image-col-left {
@@ -343,6 +351,18 @@
 
     .cta-image-icon {
         font-size: 1.65em;
+    }
+
+    .locations-col {
+        max-width: 2140px;
+    }
+
+    .locations-text h4 {
+        font-size: 2em;
+    }
+
+    .locations-text p {
+        font-size: 1.5em;
     }
 }
 /*........./.media queries*/
