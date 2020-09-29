@@ -104,19 +104,19 @@
 .multi-col {
     padding: 0;
 }
+
 .multi-col .row {
     margin: 0;
     padding: 0;
 }
 
-.menu-image-col {
+.menu-image-col, .availability-col {
     padding: 0 5px 0 0;
 }
 
 .menu-divider {
     width: 100%;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;    
     z-index: 100;
 }
 
@@ -125,5 +125,12 @@
     padding: 0;
     border-top: solid 1px #4F483A;
     filter: brightness(150%);
+}
+
+.menu-availability {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(39,36,29,0.7);
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
 /*........../.menu*/

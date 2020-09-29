@@ -20,13 +20,13 @@
     filter: brightness(150%);
 }
 
-/* Tooltip Testing */
+/* Tooltips */
 .tooltiptext {
   visibility: hidden;
   width: 80px;
   height: 80px;
   background-color:rgba(39,36,29,0.95);
-  box-shadow: 5px 5px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px rgba(0,0,0,0.1);
   color: #fafafa;
   text-align: center;
   border-radius: 15px;

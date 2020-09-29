@@ -105,7 +105,7 @@ div, nav, ul, li, img, i, a, p {
 
 .header-nav-tint {
     background-color: rgba(39,36,29,.95);
-    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
     border-radius: 15px;
 }
 
