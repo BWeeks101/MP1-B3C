@@ -24,8 +24,13 @@
     <!--Local Stylesheets-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/menu-style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/contact-modal-style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/media-queries.css" type="text/css">
     <!--/.local stylesheets-->
+
+    <!--Local Scripts-->
+    <script src="assets/scripts/bootstrap-form-validation.js"></script>
+    <!--/.local scripts-->
 </head>
 
 <body>
@@ -45,13 +50,43 @@
                         <li class="d-md-inline-block"><a href="#" class="header-nav-link"><i class="fas fa-coffee header-nav-link-icon"></i><p class="header-nav-link-text active-page">Menu</p></a></li>
                         <li class="d-md-inline-block"><a href="locations.html" class="header-nav-link"><i class="fas fa-map-marker-alt header-nav-link-icon"></i><p class="header-nav-link-text">Locations</p></a></li>
                         <li class="d-md-inline-block"><a href="about.html" class="header-nav-link"><i class="fas fa-question-circle header-nav-link-icon"></i><p class="header-nav-link-text">About</p></a></li>                            
-                        <li class="d-md-inline-block"><a href="contact.html" class="header-nav-link"><i class="fas fa-envelope header-nav-link-icon"></i><p class="header-nav-link-text">Contact Us</p></a></li>
+                        <li class="d-md-inline-block"><a href="#" class="header-nav-link" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope header-nav-link-icon"></i><p class="header-nav-link-text">Contact Us</p></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="header-divider"><hr></div>
+        <div class="header-divider"><hr></div>        
         <!--/.logo and nav-->
+
+        <!--Contact Us Modal-->
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>                        
+                    </div>
+                    <div class="modal-divider" id="modal-header-divider"><hr></div>
+                    <div class="modal-body">
+                        <!--Contact Us Form-->
+                        <form class="contact-form needs-validation" novalidate id="contact-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" aria-label="Full Name" required>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" aria-label="Email Address" required>
+                            <textarea name="usercomments" id="usercomments" class="form-control" placeholder="Your Comments" cols="30" rows="10" aria-label="Your Comments" required></textarea>                        
+                        </form>
+                        <!--/.contact us form-->
+                    </div>                    
+                    <div class="modal-divider" id="modal-footer-divider"><hr></div>
+                    <div class="modal-footer">                        
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <input type="submit" class="btn btn-info" form="contact-form" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.contact us modal-->
         
         <!--Title-->
         <div class="container-fluid title-container d-flex justify-content-center">
@@ -484,7 +519,7 @@
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <a href="#">
+                                <a href="#" class="header-nav-link" data-toggle="modal" data-target="#contactModal">
                                     <i class="fas fa-envelope"></i>
                                 </a>
                             </div>

@@ -23,9 +23,8 @@
 
     <!--Local Stylesheets-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/about-style.css" type="text/css">    
-    <link rel="stylesheet" href="assets/css/contact-modal-style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/media-queries.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/contact-style.css" type="text/css">    
+    <link rel="stylesheet" href="assets/css/media-queries.css" type="text/css">    
     <!--/.local stylesheets-->
 
     <!--Local Scripts-->
@@ -50,13 +49,23 @@
                         <li class="d-md-inline-block"><a href="menu.html" class="header-nav-link"><i class="fas fa-coffee header-nav-link-icon"></i><p class="header-nav-link-text">Menu</p></a></li>
                         <li class="d-md-inline-block"><a href="locations.html" class="header-nav-link"><i class="fas fa-map-marker-alt header-nav-link-icon"></i><p class="header-nav-link-text">Locations</p></a></li>
                         <li class="d-md-inline-block"><a href="#" class="header-nav-link"><i class="fas fa-question-circle header-nav-link-icon"></i><p class="header-nav-link-text active-page">About</p></a></li>                            
-                        <li class="d-md-inline-block"><a href="#" class="header-nav-link" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope header-nav-link-icon"></i><p class="header-nav-link-text">Contact Us</p></a></li>
+                        <li class="d-md-inline-block"><a href="contact.html" class="header-nav-link" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope header-nav-link-icon"></i><p class="header-nav-link-text">Contact Us</p></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="header-divider"><hr></div>        
+        <div class="header-divider"><hr></div>
         <!--/.logo and nav-->
+        
+        <!--Title-->
+        <div class="container-fluid title-container d-flex justify-content-center">
+            <h1 class="d-inline-block underline">Modal Testing</h1>
+        </div>
+        <!--/.title-->
+    </header>
+
+    <section>
+        <!--Content would go here, if we planned to keep this page...but we dont.-->
 
         <!--Contact Us Modal-->
         <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
@@ -87,61 +96,7 @@
             </div>
         </div>
         <!--/.contact us modal-->
-        
-        <!--Title-->
-        <div class="container-fluid title-container d-flex justify-content-center">
-            <h1 class="d-inline-block underline">About Us</h1>
-        </div>
-        <!--/.title-->
-    </header>
 
-    <section>
-        <div class="row about-hero-row justify-content-center">
-            <div class="col">
-                <img class="about-hero-img" src="assets/images/matthew-gerrard-JQpe01ira0s-unsplash-resized2.jpg" alt="Four Friends">
-                <div class="d-flex justify-content-center align-items-center text-center overlay tint">
-                    <img class="about-hero-logo" src="assets/images/logotest.png" alt="B3C Logo">                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="row about-text-row justify-content-center">
-            <div class="col-12">
-                <div class="about-quote-wrapper text-center">
-                    <h4>
-                        Small acts, when multiplied by millions of people, can transform the world.
-                    </h4>
-                    <h5>
-                        - Howard Zinn
-                    </h5>
-                </div>
-                <p>
-                    Created in 2001 by 4 friends with the help of some generous financial backers, The Bristol Charity Coffee Collective is a group of 4 independently run coffee shops situated in the cultural melting-pot of Bristol.
-                </p>
-                <p>
-                    Working together, the collective donates 20% of the profit from all sales to local charities in the greater Bristol area.
-                </p>
-                <p>
-                    Each year, we select 4 causes to support, and these receive 80% of our donation pool.  The final 20% is reserved for worthy causes brought to our attention by our customers.  At the end of the year, any remaining reserve is distributed evenly amongst our 4 primary beneficiaries.<br>
-                </p>
-                <p>
-                    We are proud members of the <a href="https://www.suspendedcoffees.com" target="_blank">Suspended Coffee</a> movement, and extend the idea to our food.
-                    Any uncollected Suspended items, along with any leftover fresh food, is donated to local homeless shelters at the end of each day.
-                </p>
-                <p>
-                    100% of our coffee and chocolate is sourced from fair trade plantations.
-                </p>
-                <p>
-                    All of our food is provided by local bakeries who are also committed to utilising responsibly sourced ingredients in their products.<br>
-                </p>
-                <p>
-                    The support from our backers and the wonderful communities that we serve has been overwhelming, and we are extremely grateful for the opportunity to use our success to benefit those in need.
-                </p>            
-            </div>
-            <div class="col-12 text-center">
-                <img class="heart-img" src="assets/images/nathan-dumlao-ikU3J1nr52w-unsplash-heart.jpg" alt="Coffee Heart">
-            </div>                
-        </div>        
     </section>
 
      <footer>
@@ -168,7 +123,7 @@
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <a href="#" class="header-nav-link" data-toggle="modal" data-target="#contactModal">
+                                <a href="#">
                                     <i class="fas fa-envelope"></i>
                                 </a>
                             </div>
@@ -189,5 +144,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
      <!--./bootstrap javascript-->
+     
 </body>
 </html>

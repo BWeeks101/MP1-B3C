@@ -25,8 +25,13 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/index-style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/cta-style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/contact-modal-style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/media-queries.css" type="text/css">
     <!--/.local stylesheets-->
+
+    <!--Local Scripts-->
+    <script src="assets/scripts/bootstrap-form-validation.js"></script>
+    <!--/.local scripts-->
 </head>
 
 <body>
@@ -46,13 +51,43 @@
                         <li class="d-md-inline-block"><a href="menu.html" class="header-nav-link"><i class="fas fa-coffee header-nav-link-icon"></i><p class="header-nav-link-text">Menu</p></a></li>
                         <li class="d-md-inline-block"><a href="locations.html" class="header-nav-link"><i class="fas fa-map-marker-alt header-nav-link-icon"></i><p class="header-nav-link-text">Locations</p></a></li>
                         <li class="d-md-inline-block"><a href="about.html" class="header-nav-link"><i class="fas fa-question-circle header-nav-link-icon"></i><p class="header-nav-link-text">About</p></a></li>                            
-                        <li class="d-md-inline-block"><a href="contact.html" class="header-nav-link"><i class="fas fa-envelope header-nav-link-icon"></i><p class="header-nav-link-text">Contact Us</p></a></li>
+                        <li class="d-md-inline-block"><a href="#" class="header-nav-link" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope header-nav-link-icon"></i><p class="header-nav-link-text">Contact Us</p></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="header-divider"><hr></div>
+        <div class="header-divider"><hr></div>        
         <!--/.logo and nav-->
+
+        <!--Contact Us Modal-->
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>                        
+                    </div>
+                    <div class="modal-divider" id="modal-header-divider"><hr></div>
+                    <div class="modal-body">
+                        <!--Contact Us Form-->
+                        <form class="contact-form needs-validation" novalidate id="contact-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" aria-label="Full Name" required>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" aria-label="Email Address" required>
+                            <textarea name="usercomments" id="usercomments" class="form-control" placeholder="Your Comments" cols="30" rows="10" aria-label="Your Comments" required></textarea>                        
+                        </form>
+                        <!--/.contact us form-->
+                    </div>                    
+                    <div class="modal-divider" id="modal-footer-divider"><hr></div>
+                    <div class="modal-footer">                        
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <input type="submit" class="btn btn-info" form="contact-form" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.contact us modal-->
         
         <div class="container-fluid hero-container">
             <!--Hero Image, Overlay, Welcome Message and Quote-->
@@ -134,7 +169,7 @@
                                 <div class="cta-image-width">
                                     <div class="cta-image">
                                         <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="#" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-map-marker-alt cta-image-icon"></i><p class="cta-image-text">Visit us</p></a>
+                                            <a href="locations.html" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-map-marker-alt cta-image-icon"></i><p class="cta-image-text">Visit us</p></a>
                                         </div>
                                         <img src="assets/images/samuel-oakes-Fr_XUMvQ9AU-unsplash.jpg" alt="Locations Image">
                                     </div>
@@ -155,7 +190,7 @@
                                 <div class="cta-image-width">
                                     <div class="cta-image">
                                         <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="#" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-question-circle cta-image-icon"></i><p class="cta-image-text">Find out more</p></a>
+                                            <a href="about.html" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-question-circle cta-image-icon"></i><p class="cta-image-text">Find out more</p></a>
                                         </div>
                                         <img src="assets/images/matthew-gerrard-JQpe01ira0s-unsplash-resized.jpg" alt="About Image">
                                     </div>
@@ -184,8 +219,8 @@
                             <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
                                 <div class="cta-text-wrapper">
                                     <h4>We'd love to hear from you.</h4>                
-                                    <p>Enjoyed your experience at one of our shops?  Know of a local good cause we can support?  Let us know here!</p>
-                                    <a href="contact.html" class="btn btn-info cta-btn cta-btn-left" role="button"><i class="fas fa-envelope cta-btn-icon"></i><p class="cta-btn-text">Contact us</p></a>
+                                    <p>Enjoyed your experience at one of our shops?  Know of a local good cause we can support?  Let us know here!</p>                                    
+                                    <a href="#" class="btn btn-info cta-btn cta-btn-left" role="button" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope cta-btn-icon"></i><p class="cta-btn-text">Contact us</p></a>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +229,7 @@
                                 <div class="cta-image-width">
                                     <div class="cta-image">
                                         <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="#" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-envelope cta-image-icon"></i><p class="cta-image-text">Contact us</p></a>
+                                            <a href="#" class="btn btn-outline-info cta-image-btn" role="button" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope cta-image-icon"></i><p class="cta-image-text">Contact us</p></a>
                                         </div>
                                         <img src="assets/images/mikey-harris-zasPTUnrWnI-unsplash.jpg" alt="Contact Image">
                                     </div>
@@ -232,7 +267,7 @@
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <a href="#">
+                                <a href="#" class="header-nav-link" data-toggle="modal" data-target="#contactModal">
                                     <i class="fas fa-envelope"></i>
                                 </a>
                             </div>
