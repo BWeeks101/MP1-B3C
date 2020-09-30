@@ -14,6 +14,14 @@
     max-width: 1500px;
 }
 
+.cta-text-wrapper h4 {
+        font-size: 1.2em;
+}
+
+.cta-text-wrapper p {
+    font-size: 0.85em;
+}
+
 .cta-btn {
     width: 250px;
 }
@@ -41,8 +49,9 @@
     width: 100%;
 }
 
-.cta-image-overlay {    
-    align-items: center;
+.cta-image-overlay {
+    flex-direction: column;
+    align-items: center;    
     justify-content: center;
 }
 
@@ -58,6 +67,26 @@
 
 .cta-image:hover .hidden {
     display: flex;
+}
+
+.cta-image-btn {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: calc(100% - 10px);
+    padding: 6px;
+}
+
+.cta-image-btn .cta-image-icon, .cta-image-btn .cta-image-text {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cta-image-btn .cta-image-icon {
+    align-self: center;
 }
 
 .cta-btn-icon {

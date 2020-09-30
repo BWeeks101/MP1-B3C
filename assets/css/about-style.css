@@ -39,3 +39,20 @@
     border-radius: 50%;
     box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
+
+/*.welcome-quote-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding: 0 0 20px 5px;
+}
+
+
+.welcome-quote {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+*/

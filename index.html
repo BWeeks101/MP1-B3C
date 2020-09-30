@@ -32,28 +32,26 @@
 <body>
     <header>        
         <!--Logo and Nav-->
-        <div class="container-fluid header-nav-container">
-            <nav class="navbar header-nav justify-content-md-between align-items-top navbar-dark">
-                <a href="index.html" class="d-inline-block navbar-brand">
-                    <img class="logo" src="assets/images/logotest.png" alt="B3C Logo">                        
-                </a>
-                <div class="navbar-expand-md text-right">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu" aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse text-left header-nav-tint" id="navbarToggleMenu">
-                        <ul class="header-nav-list">
-                            <li class="d-md-inline-block"><a href="#" class="header-nav-link"><i class="fas fa-home header-nav-link-icon"></i><p class="header-nav-link-text active-page">Home</p></a></li>
-                            <li class="d-md-inline-block"><a href="menu.html" class="header-nav-link"><i class="fas fa-coffee header-nav-link-icon"></i><p class="header-nav-link-text">Menu</p></a></li>
-                            <li class="d-md-inline-block"><a href="locations.html" class="header-nav-link"><i class="fas fa-map-marker-alt header-nav-link-icon"></i><p class="header-nav-link-text">Locations</p></a></li>
-                            <li class="d-md-inline-block"><a href="about.html" class="header-nav-link"><i class="fas fa-question-circle header-nav-link-icon"></i><p class="header-nav-link-text">About</p></a></li>                            
-                            <li class="d-md-inline-block"><a href="contact.html" class="header-nav-link"><i class="fas fa-envelope header-nav-link-icon"></i><p class="header-nav-link-text">Contact Us</p></a></li>
-                        </ul>
-                    </div>
+        <nav class="navbar header-nav justify-content-md-between align-items-top navbar-dark">
+            <a href="index.html" class="d-inline-block navbar-brand">
+                <img class="logo" src="assets/images/logotest.png" alt="B3C Logo">                        
+            </a>
+            <div class="navbar-expand-md text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu" aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-left header-nav-tint" id="navbarToggleMenu">
+                    <ul class="header-nav-list">
+                        <li class="d-md-inline-block"><a href="#" class="header-nav-link"><i class="fas fa-home header-nav-link-icon"></i><p class="header-nav-link-text active-page">Home</p></a></li>
+                        <li class="d-md-inline-block"><a href="menu.html" class="header-nav-link"><i class="fas fa-coffee header-nav-link-icon"></i><p class="header-nav-link-text">Menu</p></a></li>
+                        <li class="d-md-inline-block"><a href="locations.html" class="header-nav-link"><i class="fas fa-map-marker-alt header-nav-link-icon"></i><p class="header-nav-link-text">Locations</p></a></li>
+                        <li class="d-md-inline-block"><a href="about.html" class="header-nav-link"><i class="fas fa-question-circle header-nav-link-icon"></i><p class="header-nav-link-text">About</p></a></li>                            
+                        <li class="d-md-inline-block"><a href="contact.html" class="header-nav-link"><i class="fas fa-envelope header-nav-link-icon"></i><p class="header-nav-link-text">Contact Us</p></a></li>
+                    </ul>
                 </div>
-            </nav>
-            <div class="header-divider"><hr></div>
-        </div>
+            </div>
+        </nav>
+        <div class="header-divider"><hr></div>
         <!--/.logo and nav-->
         
         <div class="container-fluid hero-container">
@@ -74,16 +72,13 @@
                                 Bristol Charity Coffee Collective
                             </h1>
                         </div>
-                    </div>
-                </div>
-                <div class="d-none d-md-block container-fluid welcome-quote-container">
-                    <div class="row no-gutters">
-                        <div class="col col-lg-6 text-center text-lg-right">
-                            <p class="welcome-quote">Small acts, when multiplied by millions of people, can transform the world.</p>
-                            <p class="welcome-quote">- Howard Zinn</p>
+                        <div class="col-12 text-center charity-info">
+                            <br>
+                            <p><em>20% of the profit from each sale goes to local charities</em></p>
+                            <p>We are proud to take orders for <a href="https://www.suspendedcoffees.com" target="_blank">Suspended Coffees</a> (and Food!)</p>                            
                         </div>
                     </div>
-                </div>    
+                </div>                
             </div>
         </div>
         <!--/.hero image, overlay, welcome message and quote-->
@@ -99,8 +94,8 @@
                             <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
                                 <div class="cta-image-width">
                                     <div class="cta-image">
-                                        <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="menu.html"><i class="fas fa-coffee cta-image-icon"></i><p class="cta-image-text">View our menu</p></a>
+                                        <div class="overlay tint cta-image-overlay hidden text-center">
+                                            <a href="menu.html" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-coffee cta-image-icon"></i><p class="cta-image-text">View our menu</p></a>
                                         </div>
                                         <img src="assets/images/zan-baldwin-C64YvmXO_QA-unsplash.jpg" alt="Menu Image">
                                     </div>
@@ -139,7 +134,7 @@
                                 <div class="cta-image-width">
                                     <div class="cta-image">
                                         <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="#"><i class="fas fa-map-marker-alt cta-image-icon"></i><p class="cta-image-text">Visit us</p></a>
+                                            <a href="#" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-map-marker-alt cta-image-icon"></i><p class="cta-image-text">Visit us</p></a>
                                         </div>
                                         <img src="assets/images/samuel-oakes-Fr_XUMvQ9AU-unsplash.jpg" alt="Locations Image">
                                     </div>
@@ -160,7 +155,7 @@
                                 <div class="cta-image-width">
                                     <div class="cta-image">
                                         <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="#"><i class="fas fa-question-circle cta-image-icon"></i><p class="cta-image-text">Find out more</p></a>
+                                            <a href="#" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-question-circle cta-image-icon"></i><p class="cta-image-text">Find out more</p></a>
                                         </div>
                                         <img src="assets/images/matthew-gerrard-JQpe01ira0s-unsplash-resized.jpg" alt="About Image">
                                     </div>
@@ -199,7 +194,7 @@
                                 <div class="cta-image-width">
                                     <div class="cta-image">
                                         <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="#"><i class="fas fa-envelope cta-image-icon"></i><p class="cta-image-text">Contact us</p></a>
+                                            <a href="#" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-envelope cta-image-icon"></i><p class="cta-image-text">Contact us</p></a>
                                         </div>
                                         <img src="assets/images/mikey-harris-zasPTUnrWnI-unsplash.jpg" alt="Contact Image">
                                     </div>
@@ -222,31 +217,31 @@
                         <div class="row justify-content-center align-items-center social-media-row">
                             <div class="col-auto">
                                 <a href="https://www.facebook.com" target="_blank">
-                                    <h5><i class="fab fa-facebook"></i></h5>
+                                    <i class="fab fa-facebook"></i>
                                 </a>
                             </div>
                             <div class="col-auto">
                                 <a href="https://www.instagram.com" target="_blank">
-                                    <h5><i class="fab fa-instagram"></i></h5>
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
                             <div class="col-auto">
                                 <a href="https://www.twitter.com" target="_blank">
-                                    <h5><i class="fab fa-twitter"></i></h5>
+                                    <i class="fab fa-twitter"></i>
                                 </a>
                             </div>
                             <div class="col-auto">
                                 <a href="#">
-                                    <h5><i class="fas fa-envelope"></i></h5>
+                                    <i class="fas fa-envelope"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="d-none d-md-inline-block col-md-4 footer-logo">
-                    <a href="index.html" class="logo-link">
+                    <a href="index.html" class="d-inline-block">
                         <img class="logo" src="assets/images/logotest.png" alt="B3C Logo">
-                    </a>                    
+                    </a>
                 </div>
             </div>
         </div>
