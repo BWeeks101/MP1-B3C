@@ -21,6 +21,14 @@
     .menu-col ul li, .about-text-row p {
         font-size: 1em;
     }
+
+    .about-quote-wrapper h4 {
+        font-size: 1.5em;
+    }
+
+    .about-quote-wrapper h5 {
+        font-size: 1.25em;
+    }
 }
 
 /* Menu.html - carousel-nav height adjustment to account for wrapping*/
@@ -208,10 +216,6 @@
         max-height: 354px;
         max-width: 531px;
     }
-
-    .welcome-quote-container {
-        display: none !important;
-    }    
 }
 
 /* Pixel 2 XL Landscape - 823px x 411px*/
@@ -266,13 +270,6 @@
 
 }
 
-/* iPad Pro Portrait - 1024px x 1366px */
-@media (min-width: 1024px) {
-    .welcome-quote {
-        font-size: 1.10em;
-    }
-}
-
 /* Bootstrap XL (Min) Breakpoint - 1200px */
 @media (min-width: 1200px) {
     .welcome-text {
@@ -282,15 +279,7 @@
     .charity-info p {
         font-size: 1.4em;
     }
-
-    .welcome-quote {
-        font-size: 1.5em;        
-    }
-
-    .welcome-quote-container {
-        padding-bottom: 30px;
-    } 
-
+    
     #savoury-col, #toast-col {
         margin-bottom: 14px;
     }
