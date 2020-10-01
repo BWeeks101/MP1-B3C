@@ -1,3 +1,11 @@
+.modal, .fade {
+    min-width: 280px;
+}
+
+.modal-dialog {
+    min-width: 264px;
+}
+
 .modal-content {
     background-color: rgba(79,72,58,.95);
     box-shadow: 5px 5px rgba(0,0,0,0.1);
@@ -12,6 +20,10 @@
 
 .modal-header button.close {
     color: #fafafa;
+}
+
+.modal-header .close {
+    margin: -1rem 1rem -1rem auto;
 }
 
 .modal-footer {
@@ -53,11 +65,11 @@
     padding: 0 10px;
 }
 
-#modal-header-divider {
+.modal-header-divider {
     margin: 10px 0 15px;
 }
 
-#modal-footer-divider {
+.modal-footer-divider {
    margin: 15px 0 10px
 }
 
@@ -66,11 +78,19 @@
     border-top-width: 1px;
 }
 
-#modal-header-divider hr {
+.modal-header-divider hr {
     border-top-color: #4F483A;
     filter: brightness(150%);
 }
 
-#modal-footer-divider hr {
+.modal-footer-divider hr {
     border-top-color: rgba(0,0,0,0.2);
+}
+
+.modal .locations-text a {
+    display: block;
+}
+
+.modal .locations-text .tel-url {
+    margin-bottom: 15px;
 }

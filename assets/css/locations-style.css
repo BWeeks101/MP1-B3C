@@ -7,6 +7,14 @@
     padding-top: 15px;
 }
 
+.locations-text a i {
+    font-size: .85em;
+}
+
+.locations-text .cta-btn {
+    width: 150px;
+}
+
 .locations-divider {
     width: 100%;
     margin-top: 29px;
@@ -22,34 +30,34 @@
 
 /* Tooltips */
 .tooltiptext {
-  visibility: hidden;
-  width: 80px;
-  height: 80px;
-  background-color:rgba(39,36,29,0.95);
-  box-shadow: 5px 5px rgba(0,0,0,0.1);
-  color: #fafafa;
-  text-align: center;
-  border-radius: 15px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 150%;
-  left: 50%;
-  margin-left: -40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    visibility: hidden;
+    width: 76px;
+    height: 76px;
+    background-color:rgba(39,36,29,0.95);
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
+    color: #fafafa;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .facilities-icon .tooltiptext::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent rgba(39,36,29,0.9) transparent;
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(39,36,29,0.9) transparent;
 }
 
 .facilities-icon:hover .tooltiptext{

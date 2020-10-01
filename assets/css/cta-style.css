@@ -18,7 +18,7 @@
         font-size: 1.2em;
 }
 
-.cta-text-wrapper p {
+.cta-text-wrapper p, .cta-text-wrapper a i {
     font-size: 0.85em;
 }
 
