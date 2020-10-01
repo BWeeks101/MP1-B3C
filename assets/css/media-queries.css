@@ -278,12 +278,17 @@
         margin-left: -45px;
     }
 
+    /*
     .locations-text .btn-info {
         margin-top: 1rem;
-    }
+    }*/
 
     .locations-text .cta-btn {
         width: 250px;
+    }
+
+    .locations-text .btn-info {
+        margin-top: 1rem;
     }
 }
 
@@ -313,7 +318,14 @@
         width: 110px;
         height: 110px;
         margin-left: -55px;
-    }
+    }    
+}
+
+/* .locations col capped at 1420px width from 1440p until 1920p */
+@media (min-width: 1440px) {
+    .locations-col {
+        max-width: 1420px;
+    } 
 }
 
 /* 1080p Breakpoint - 1920px x 1080px */
@@ -377,7 +389,14 @@
     }
 
     .locations-col {
-        max-width: 2140px;
+        max-width: 75%;
     }    
+}
+
+/* .locations col capped at 75% width from 1920p until 2880px, maxing at 2140px */
+@media (min-width: 2880px) {
+    .locations-col {
+        max-width: 2140px;
+    } 
 }
 /*........./.media queries*/
