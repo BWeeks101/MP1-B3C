@@ -323,7 +323,7 @@
 
 /* .locations col capped at 1420px width from 1440p until 1920p */
 @media (min-width: 1440px) {
-    .locations-col {
+    .locations-col, .about-text-row .col-12 {
         max-width: 1420px;
     } 
 }
@@ -388,14 +388,14 @@
         font-size: 1.65em;
     }
 
-    .locations-col {
+    .locations-col, .about-text-row .col-12 {
         max-width: 75%;
     }    
 }
 
 /* .locations col capped at 75% width from 1920p until 2880px, maxing at 2140px */
 @media (min-width: 2880px) {
-    .locations-col {
+    .locations-col, .about-text-row .col-12 {
         max-width: 2140px;
     } 
 }
