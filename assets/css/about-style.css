@@ -60,3 +60,16 @@
     border-radius: 50%;
     box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
+
+.about-text-row p {
+    margin-bottom: 1.5rem;
+}
+
+.about-text-divider {    
+    margin-bottom: 1.5rem;
+}
+
+.about-text-divider hr {
+    border-top: solid 1px #4F483A;
+    filter: brightness(150%);
+}
