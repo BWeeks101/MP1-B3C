@@ -250,20 +250,16 @@
         width: 900px;
     }
 
-    .modal .cta-text-wrapper {
-        width: 100%
-    }
-
     .cta-image {
         max-height: 600px;
         max-width: 900px;
     }
 
-    .cta-text-wrapper h4 {
+    .cta-text-wrapper h4, .locations-modal-title {
         font-size: 1.5em;
     }
     
-    .cta-text-wrapper p, .cta-text-wrapper a i {
+    .cta-text-wrapper p, .locations-modal-text p, .cta-text-wrapper a i, .locations-modal-text a i {
         font-size: 1em;
     }
 
@@ -305,11 +301,11 @@
         margin-bottom: 14px;
     }
 
-    .cta-text-wrapper p {
+    .cta-text-wrapper p, .locations-modal-text p {
         font-size: 1.25em;
     }
 
-    .cta-text-wrapper a i {
+    .cta-text-wrapper a i, .locations-modal-text a i {
         font-size: 1.1em;
     }
     

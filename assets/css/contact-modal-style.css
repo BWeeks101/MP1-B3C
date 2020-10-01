@@ -22,10 +22,6 @@
     color: #fafafa;
 }
 
-.modal-header .close {
-    margin: -1rem 1rem -1rem auto;
-}
-
 .modal-footer {
     border-top: none;
     border-bottom-left-radius: 14px;
@@ -87,10 +83,18 @@
     border-top-color: rgba(0,0,0,0.2);
 }
 
-.modal .locations-text a {
+.locations-modal-text a {
     display: block;
 }
 
-.modal .locations-text .tel-url {
+.locations-modal-text .tel-url {
     margin-bottom: 15px;
+}
+
+.locations-modal-title {
+    font-size: 1.2em;
+}
+
+.locations-modal-text p, .locations-modal-text a i {
+    font-size: .85em;
 }
