@@ -1,4 +1,30 @@
-/*..........Set page defaults*/
+/*
+Colour Palette:
+#fafafa; Text Colour
+#4F483A; Background Colour
+#27241D; Nav Dropdown/Menu Note/Tooltip Background
+
+#17a2b8; Bootstrap .btn-info Background Colour/Border Colour, .btn-outline-info Border Colour
+#6c757d; Bootstrap .btn-secondary Background Colour/Border Colour
+
+Heading Fonts:
+font-family: 'Roboto Slab', serif;
+
+Content Fonts:
+font-family: 'Roboto Mono', monospace;
+*/
+
+/*..........Bootstrap Stylesheet*/
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+/*........../.bootstrap stylesheet*/
+
+
+/*..........Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*........../.google fonts*/
+
+
+/*..........Set Page Defaults*/
 body {
     display: flex;
     min-height: 100vh;
@@ -15,7 +41,7 @@ section {
     flex: 1 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     background-color: transparent;
@@ -45,6 +71,22 @@ div, nav, ul, li, img, i, a, p {
     background-color: transparent;
 }
 
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:not(:disabled):not(.disabled):active, .btn-info:focus {
+    color: #fafafa;
+}
+
+.btn-outline-info, .btn-outline-info:hover, .btn-outline-info:active, .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:focus {
+    color: #fafafa;
+    background-color: transparent;
+}
+
+.navbar-toggler, .btn {
+    border-radius: 15px;
+}
+/*........../.set page defaults*/
+
+
+/*..........Custom Classes*/
 .active-page {
     text-decoration: underline;
 }
@@ -65,20 +107,12 @@ div, nav, ul, li, img, i, a, p {
     display: none;
 }
 
-.btn-info, .btn-info:hover, .btn-info:active, .btn-info:not(:disabled):not(.disabled):active, .btn-info:focus {
-    color: #fafafa;
+.underline {
+    padding-bottom: 2px;
+    border-bottom: solid 1px #fafafa;
 }
+/*........../.custom classes*/
 
-.btn-outline-info, .btn-outline-info:hover, .btn-outline-info:active, .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:focus {
-    color: #fafafa;
-    background-color: transparent;
-}
-
-.navbar-toggler, .btn {
-    border-radius: 15px;
-}
-
-/*........../.set page defaults*/
 
 /*..........Header*/
 .header-nav {
@@ -147,11 +181,6 @@ div, nav, ul, li, img, i, a, p {
     padding-bottom: 2px;
     border-bottom: solid 1px;
 }
-
-.underline {
-    padding-bottom: 2px;
-    border-bottom: solid 1px #fafafa;
-}
 /*........../.header*/
 
 
@@ -183,36 +212,11 @@ footer {
     font-size: 1.4em;
 }
 
-.footer-logo {
+.footer-logo-container {
     text-align: right;
 }
 
-.footer-logo a {
+.footer-logo-container a {
     padding: 5px 0;
 }
 /*........../.footer*/
-
-
-/*
-Off white:
-#fafafa;
-
-blue:
-#6194c9;
-
-stronger blue:
-#3F7AB8;
-
-Colour Palette:
-#82765F; Light Brown
-#4F483A; Background Colour
-#CFBC97; Light Cream
-#DBC8A0; Lighter Cream?
-#B5A584; Med Cream
-
-Heading Fonts:
-font-family: 'Roboto Slab', serif;
-
-Content Fonts:
-font-family: 'Roboto Mono', monospace;
-*/

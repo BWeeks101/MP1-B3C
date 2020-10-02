@@ -1,10 +1,11 @@
+/*..........Locations*/
+.locations-text {
+    padding-top: 15px;
+}
+
 .facilities-icon {
     position: relative;
     margin-right: 5px;
-}
-
-.locations-text {
-    padding-top: 15px;
 }
 
 .locations-text a i {
@@ -27,8 +28,10 @@
     border-top: solid 1px #4F483A;
     filter: brightness(150%);
 }
+/*........../.locations*/
 
-/* Tooltips */
+
+/*..........Tooltips*/
 .tooltiptext {
     visibility: hidden;
     width: 76px;
@@ -63,3 +66,4 @@
 .facilities-icon:hover .tooltiptext{
     visibility: visible;
 }
+/*........../.tooltips*/

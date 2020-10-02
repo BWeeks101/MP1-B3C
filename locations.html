@@ -9,23 +9,15 @@
     <link rel="shortcut icon" type="image/jpg" href="assets/images/logo_size_invert.jpg"/>
     <!--/.favicon-->
 
-    <!--Bootstrap Stylesheet-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--/.bootstrap stylesheet-->
-
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/ace03ffe36.js" crossorigin="anonymous"></script>
     <!--/.font awesome-->
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-    <!--/.google fonts-->
-
     <!--Local Stylesheets-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/locations-style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/modal-style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/cta-style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/contact-modal-style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/locations-style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/media-queries.css" type="text/css">
     <!--/.local stylesheets-->
 
@@ -201,179 +193,181 @@
     </header>
 
     <section>
-        <div class="row no-gutters cta-row justify-content-center">
-            <div class="col-12 locations-col">
+        <div class="container-fluid">
+            <div class="row no-gutters cta-row justify-content-center">
                 <!--Clifton Village-->
-                <div class="container-fluid cta-container locations-container">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-6">
-                            <div class="d-flex justify-content-center justify-content-md-end align-items-center">
-                                <div class="cta-image-width">
-                                    <div class="cta-image">
-                                        <img src="assets/images/nick-hillier-xBXF9pr6LQo-unsplash-resized.jpg" alt="Clifton Village Shop">
+                <div class="col-12 locations-col">                    
+                    <div class="container-fluid cta-container locations-container">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex justify-content-center justify-content-md-end align-items-center">
+                                    <div class="cta-image-width">
+                                        <div class="cta-image">
+                                            <img src="assets/images/nick-hillier-xBXF9pr6LQo-unsplash-resized.jpg" alt="Clifton Village Shop">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 text-center col-md-6 text-md-left">
-                            <div class="d-flex justify-content-center justify-content-md-start align-items-center">                                
-                                <div class="cta-text-wrapper locations-text">
-                                    <h4 class="d-inline-block underline">Clifton Village</h4>
-                                    <p>                                        
-                                        <i class="fas fa-baby facilities-icon"><span class="tooltiptext">Baby<br>Changing</span></i>
-                                        <i class="fas fa-wheelchair facilities-icon"><span class="tooltiptext">Disabled<br>Access</span></i>
-                                        <i class="fas fa-wifi facilities-icon"><span class="tooltiptext">Wi-Fi<br>Available</span></i>
-                                        <i class="fas fa-paw facilities-icon"><span class="tooltiptext">Dog<br>Friendly</span></i>
-                                    </p>
-                                    <p>
-                                        20 Princess Victoria Street<br>
-                                        Clifton<br>
-                                        Bristol<br>
-                                        BS8 4BP
-                                    </p>
-                                    <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#cliftonModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
-                                    <div class="d-block d-md-none d-lg-block"></div>
-                                    <a href="https://www.google.com/maps/dir/Current+Location/20%2C+Princess+Victoria+Street%2C+Bristol+BS8+4BP%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
-                                    <div class="d-md-none locations-divider"><hr></div>
-                                </div>                                
+                            <div class="col-12 text-center col-md-6 text-md-left">
+                                <div class="d-flex justify-content-center justify-content-md-start align-items-center">                                
+                                    <div class="cta-text-wrapper locations-text">
+                                        <h4 class="d-inline-block underline">Clifton Village</h4>
+                                        <p>                                        
+                                            <i class="fas fa-baby facilities-icon"><span class="tooltiptext">Baby<br>Changing</span></i>
+                                            <i class="fas fa-wheelchair facilities-icon"><span class="tooltiptext">Disabled<br>Access</span></i>
+                                            <i class="fas fa-wifi facilities-icon"><span class="tooltiptext">Wi-Fi<br>Available</span></i>
+                                            <i class="fas fa-paw facilities-icon"><span class="tooltiptext">Dog<br>Friendly</span></i>
+                                        </p>
+                                        <p>
+                                            20 Princess Victoria Street<br>
+                                            Clifton<br>
+                                            Bristol<br>
+                                            BS8 4BP
+                                        </p>
+                                        <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#cliftonModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
+                                        <div class="d-block d-md-none d-lg-block"></div>
+                                        <a href="https://www.google.com/maps/dir/Current+Location/20%2C+Princess+Victoria+Street%2C+Bristol+BS8+4BP%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
+                                        <div class="d-md-none locations-divider"><hr></div>
+                                    </div>                                
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--/.clifton village-->
-            </div>
 
-            <div class="col-12 locations-col">
                 <!--Horfield-->
-                <div class="container-fluid cta-container locations-container">
-                    <div class="row align-items-center">
-                        <div class="col-12 order-12 text-center col-md-6 order-md-0 text-md-right">
-                            <div class="d-flex justify-content-center justify-content-md-end align-items-center">
-                                <div class="cta-text-wrapper locations-text">                                                                
-                                    <h4 class="d-inline-block underline">Horfield</h4>
-                                    <p>
-                                        <i class="fas fa-baby facilities-icon"><span class="tooltiptext">Baby Changing</span></i>
-                                        <i class="fas fa-wheelchair facilities-icon"><span class="tooltiptext">Disabled Access</span></i>
-                                        <i class="fas fa-wifi facilities-icon"><span class="tooltiptext">Wi-Fi Available</span></i>
-                                        <i class="fas fa-paw facilities-icon"><span class="tooltiptext">Dog Friendly</span></i>
-                                    </p>
-                                    <p>
-                                        321 Gloucester Road<br>
-                                        Horfield<br>
-                                        Bristol<br>
-                                        BS7 8TN
-                                    </p>
-                                    <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#horfieldModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
-                                    <div class="d-block d-md-none d-lg-block"></div>
-                                    <a href="https://www.google.com/maps/dir/Current+Location/321%2C+Gloucester+Road%2C+Horfield%2C+Bristol+BS7+8TN%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
-                                    <div class="d-md-none locations-divider"><hr></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 order-0 col-md-6 order-md-12">
-                            <div class="d-flex justify-content-center justify-content-md-start align-items-center">
-                                <div class="cta-image-width">
-                                    <div class="cta-image">
-                                        <img src="assets/images/joshua-rodriguez-f7zm5TDOi4g-unsplash.jpg" alt="Horfield Shop">
+                <div class="col-12 locations-col">
+                    <div class="container-fluid cta-container locations-container">
+                        <div class="row align-items-center">
+                            <div class="col-12 order-12 text-center col-md-6 order-md-0 text-md-right">
+                                <div class="d-flex justify-content-center justify-content-md-end align-items-center">
+                                    <div class="cta-text-wrapper locations-text">                                                                
+                                        <h4 class="d-inline-block underline">Horfield</h4>
+                                        <p>
+                                            <i class="fas fa-baby facilities-icon"><span class="tooltiptext">Baby Changing</span></i>
+                                            <i class="fas fa-wheelchair facilities-icon"><span class="tooltiptext">Disabled Access</span></i>
+                                            <i class="fas fa-wifi facilities-icon"><span class="tooltiptext">Wi-Fi Available</span></i>
+                                            <i class="fas fa-paw facilities-icon"><span class="tooltiptext">Dog Friendly</span></i>
+                                        </p>
+                                        <p>
+                                            321 Gloucester Road<br>
+                                            Horfield<br>
+                                            Bristol<br>
+                                            BS7 8TN
+                                        </p>
+                                        <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#horfieldModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
+                                        <div class="d-block d-md-none d-lg-block"></div>
+                                        <a href="https://www.google.com/maps/dir/Current+Location/321%2C+Gloucester+Road%2C+Horfield%2C+Bristol+BS7+8TN%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
+                                        <div class="d-md-none locations-divider"><hr></div>
                                     </div>
                                 </div>
                             </div>
-                        </div>                
-                    </div>
+                            <div class="col-12 order-0 col-md-6 order-md-12">
+                                <div class="d-flex justify-content-center justify-content-md-start align-items-center">
+                                    <div class="cta-image-width">
+                                        <div class="cta-image">
+                                            <img src="assets/images/joshua-rodriguez-f7zm5TDOi4g-unsplash.jpg" alt="Horfield Shop">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>                    
                 </div>
-                <!--/.Horfield-->
-            </div>
+                <!--/.horfield-->
 
-            <div class="col-12 locations-col">
                 <!--Southville-->
-                <div class="container-fluid cta-container locations-container">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-6">
-                            <div class="d-flex justify-content-center justify-content-md-end align-items-center">
-                                <div class="cta-image-width">
-                                    <div class="cta-image">
-                                        <img src="assets/images/brooke-cagle-8jp-6SjVibM-unsplash.jpg" alt="Southville Shop">
+                <div class="col-12 locations-col">                    
+                    <div class="container-fluid cta-container locations-container">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex justify-content-center justify-content-md-end align-items-center">
+                                    <div class="cta-image-width">
+                                        <div class="cta-image">
+                                            <img src="assets/images/brooke-cagle-8jp-6SjVibM-unsplash.jpg" alt="Southville Shop">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center col-md-6 text-md-left">
+                                <div class="d-flex justify-content-center justify-content-md-start align-items-center">
+                                    <div class="cta-text-wrapper locations-text">
+                                        <h4 class="d-inline-block underline">Southville</h4>
+                                        <p>
+                                            <i class="fas fa-baby facilities-icon"><span class="tooltiptext">Baby Changing</span></i>
+                                            <i class="fas fa-wheelchair facilities-icon"><span class="tooltiptext">Disabled Access</span></i>
+                                            <i class="fas fa-wifi facilities-icon"><span class="tooltiptext">Wi-Fi Available</span></i>
+                                            <i class="fas fa-paw facilities-icon"><span class="tooltiptext">Dog Friendly</span></i>
+                                        </p>
+                                        <p>
+                                            252 North Street<br>
+                                            Southville<br>
+                                            Bristol<br>
+                                            BS3 1JN
+                                        </p>
+                                        <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#southvilleModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
+                                        <div class="d-block d-md-none d-lg-block"></div>
+                                        <a href="https://www.google.com/maps/dir/Current+Location/252%2C+North+Street%2C+Bristol+BS3+1JN%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
+                                        <div class="d-md-none locations-divider"><hr></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 text-center col-md-6 text-md-left">
-                            <div class="d-flex justify-content-center justify-content-md-start align-items-center">
-                                <div class="cta-text-wrapper locations-text">
-                                    <h4 class="d-inline-block underline">Southville</h4>
-                                    <p>
-                                        <i class="fas fa-baby facilities-icon"><span class="tooltiptext">Baby Changing</span></i>
-                                        <i class="fas fa-wheelchair facilities-icon"><span class="tooltiptext">Disabled Access</span></i>
-                                        <i class="fas fa-wifi facilities-icon"><span class="tooltiptext">Wi-Fi Available</span></i>
-                                        <i class="fas fa-paw facilities-icon"><span class="tooltiptext">Dog Friendly</span></i>
-                                    </p>
-                                    <p>
-                                        252 North Street<br>
-                                        Southville<br>
-                                        Bristol<br>
-                                        BS3 1JN
-                                    </p>
-                                    <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#southvilleModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
-                                    <div class="d-block d-md-none d-lg-block"></div>
-                                    <a href="https://www.google.com/maps/dir/Current+Location/252%2C+North+Street%2C+Bristol+BS3+1JN%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
-                                    <div class="d-md-none locations-divider"><hr></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
                 <!--/.southville-->
-            </div>
 
-            <div class="col-12 locations-col">
                 <!--Totterdown-->
-                <div class="container-fluid cta-container locations-container" id="last-location">
-                    <div class="row align-items-center">
-                        <div class="col-12 order-12 text-center col-md-6 order-md-0 text-md-right">
-                            <div class="d-flex justify-content-center justify-content-md-end align-items-center">
-                                <div class="cta-text-wrapper locations-text">
-                                    <h4 class="d-inline-block underline">Totterdown</h4>
-                                    <p>
-                                        <i class="fas fa-baby facilities-icon"><span class="tooltiptext">Baby Changing</span></i>
-                                        <i class="fas fa-wheelchair facilities-icon"><span class="tooltiptext">Disabled Access</span></i>
-                                        <i class="fas fa-wifi facilities-icon"><span class="tooltiptext">Wi-Fi Available</span></i>
-                                        <i class="fas fa-paw facilities-icon"><span class="tooltiptext">Dog Friendly</span></i>
-                                    </p>
-                                    <p>
-                                        145 Wells Road<br>
-                                        Totterdown<br>
-                                        Bristol<br>
-                                        BS4 2BU
-                                    </p>
-                                    <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#totterdownModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
-                                    <div class="d-block d-md-none d-lg-block"></div>
-                                    <a href="https://www.google.com/maps/dir/Current+Location/145%2C+Wells+Road%2C+Bristol+BS4+2BU%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 order-0 col-md-6 order-md-12">
-                            <div class="d-flex justify-content-center justify-content-md-start align-items-center">
-                                <div class="cta-image-width">
-                                    <div class="cta-image">
-                                        <img src="assets/images/wade-austin-ellis-4YApsoSaNKA-unsplash-resized.jpg" alt="Totterdown Shop">
+                <div class="col-12 locations-col">                    
+                    <div class="container-fluid cta-container locations-container" id="last-location">
+                        <div class="row align-items-center">
+                            <div class="col-12 order-12 text-center col-md-6 order-md-0 text-md-right">
+                                <div class="d-flex justify-content-center justify-content-md-end align-items-center">
+                                    <div class="cta-text-wrapper locations-text">
+                                        <h4 class="d-inline-block underline">Totterdown</h4>
+                                        <p>
+                                            <i class="fas fa-baby facilities-icon"><span class="tooltiptext">Baby Changing</span></i>
+                                            <i class="fas fa-wheelchair facilities-icon"><span class="tooltiptext">Disabled Access</span></i>
+                                            <i class="fas fa-wifi facilities-icon"><span class="tooltiptext">Wi-Fi Available</span></i>
+                                            <i class="fas fa-paw facilities-icon"><span class="tooltiptext">Dog Friendly</span></i>
+                                        </p>
+                                        <p>
+                                            145 Wells Road<br>
+                                            Totterdown<br>
+                                            Bristol<br>
+                                            BS4 2BU
+                                        </p>
+                                        <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#totterdownModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
+                                        <div class="d-block d-md-none d-lg-block"></div>
+                                        <a href="https://www.google.com/maps/dir/Current+Location/145%2C+Wells+Road%2C+Bristol+BS4+2BU%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
                                     </div>
                                 </div>
                             </div>
-                        </div>                
-                    </div>
+                            <div class="col-12 order-0 col-md-6 order-md-12">
+                                <div class="d-flex justify-content-center justify-content-md-start align-items-center">
+                                    <div class="cta-image-width">
+                                        <div class="cta-image">
+                                            <img src="assets/images/wade-austin-ellis-4YApsoSaNKA-unsplash-resized.jpg" alt="Totterdown Shop">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>                    
                 </div>
                 <!--/.totterdown-->
             </div>
         </div>
     </section>
 
-     <footer>
-         <!--Footer-->
+    <footer>
+        <!--Social Media Links and Logo-->
         <div class="container-fluid footer-container">
             <div class="footer-divider"><hr></div>
             <div class="row no-gutters justify-content-center justify-content-md-end align-items-center">                
                 <div class="col col-md-4">
-                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="container-fluid justify-content-center align-items-center">
                         <div class="row justify-content-center align-items-center social-media-row">
                             <div class="col-auto">
                                 <a href="https://www.facebook.com" target="_blank">
@@ -398,19 +392,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-md-inline-block col-md-4 footer-logo">
+                <div class="d-none d-md-inline-block col-md-4 footer-logo-container">
                     <a href="index.html" class="d-inline-block">
                         <img class="logo" src="assets/images/logotest.png" alt="B3C Logo">
                     </a>
                 </div>
             </div>
         </div>
-        <!--/.footer-->
+        <!--/.social media links and logo-->
     </footer>
-     <!--Bootstrap Javascript-->
+    
+    <!--Bootstrap Javascript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-     <!--./bootstrap javascript-->
+    <!--./bootstrap javascript-->
 </body>
 </html>

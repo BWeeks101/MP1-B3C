@@ -9,22 +9,14 @@
     <link rel="shortcut icon" type="image/jpg" href="assets/images/logo_size_invert.jpg"/>
     <!--/.favicon-->
 
-    <!--Bootstrap Stylesheet-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--/.bootstrap stylesheet-->
-
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/ace03ffe36.js" crossorigin="anonymous"></script>
     <!--/.font awesome-->
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-    <!--/.google fonts-->
-
     <!--Local Stylesheets-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/about-style.css" type="text/css">    
-    <link rel="stylesheet" href="assets/css/contact-modal-style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/modal-style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/about-style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/media-queries.css" type="text/css">
     <!--/.local stylesheets-->
 
@@ -35,7 +27,7 @@
 
 <body>
     <header>        
-         <!--Logo and Nav-->
+        <!--Logo and Nav-->
         <nav class="navbar header-nav justify-content-md-between align-items-top navbar-dark">
             <a href="index.html" class="d-inline-block navbar-brand">
                 <img class="logo" src="assets/images/logotest.png" alt="B3C Logo">                        
@@ -96,64 +88,71 @@
     </header>
 
     <section>
-        <div class="row about-hero-row justify-content-center">
-            <div class="col">
-                <img class="about-hero-img" src="assets/images/matthew-gerrard-JQpe01ira0s-unsplash-resized2.jpg" alt="Four Friends">
-                <div class="d-flex justify-content-center align-items-center text-center overlay tint">
-                    <img class="about-hero-logo" src="assets/images/logotest.png" alt="B3C Logo">                    
-                </div>
-            </div>
-        </div>
         
-        <div class="row about-text-row justify-content-center text-center">
-            <div class="col-12">
-                <div class="about-quote-wrapper text-center">
-                    <h4>
-                        Small acts, when multiplied by millions of people, can transform the world.
-                    </h4>
-                    <h5>
-                        - Howard Zinn
-                    </h5>
+        <div class="container-fluid">
+            <!--Hero Image and Logo-->
+            <div class="row about-hero-row justify-content-center">
+                <div class="col">
+                    <img class="about-hero-img" src="assets/images/matthew-gerrard-JQpe01ira0s-unsplash-resized2.jpg" alt="Four Friends">
+                    <div class="d-flex justify-content-center align-items-center text-center overlay tint">
+                        <img class="about-hero-logo" src="assets/images/logotest.png" alt="B3C Logo">                    
+                    </div>
                 </div>
-                <p>
-                    Created in 2001 by 4 friends with the help of some generous financial backers, The Bristol Charity Coffee Collective is a group of 4 independently run coffee shops situated in the cultural melting-pot of Bristol.
-                </p>
-                <div class="about-text-divider"><hr></div>
-                <p>
-                    Working together, the collective donates 20% of the profit from all sales to local charities in the greater Bristol area.
-                </p>
-                <p>
-                    Each year, we select 4 causes to support, and these receive 80% of our donation pool.  The final 20% is reserved for worthy causes brought to our attention by our customers.  At the end of the year, any remaining reserve is distributed evenly amongst our 4 primary beneficiaries.<br>
-                </p>
-                <div class="about-text-divider"><hr></div>
-                <p>
-                    We are proud members of the <a href="https://www.suspendedcoffees.com" target="_blank">Suspended Coffee</a> movement, and extend the idea to our food.
-                    Any uncollected <a href="https://www.suspendedcoffees.com" target="_blank">Suspended</a> items, along with any leftover fresh foods, are donated to local homeless shelters at the end of each day.
-                </p>
-                <p>
-                    100% of our coffee and chocolate is sourced from fair trade plantations.
-                </p>
-                <p>
-                    All of our food is provided by local bakeries who are also committed to utilising responsibly sourced ingredients in their products.<br>
-                </p>
-                <div class="about-text-divider"><hr></div>
-                <p>
-                    The support from our backers and the wonderful communities that we serve has been overwhelming, and we are extremely grateful for the opportunity to use our success to benefit those in need.
-                </p>
             </div>
-            <div class="col-12 text-center">
-                <img class="heart-img" src="assets/images/nathan-dumlao-ikU3J1nr52w-unsplash-heart.jpg" alt="Coffee Heart">
-            </div>                
-        </div>        
+            <!--/.hero image and logo-->
+        
+            <!--About Us-->
+            <div class="row about-text-row justify-content-center text-center">
+                <div class="col-12">
+                    <div class="about-quote-wrapper text-center">
+                        <h4>
+                            Small acts, when multiplied by millions of people, can transform the world.
+                        </h4>
+                        <h5>
+                            - Howard Zinn
+                        </h5>
+                    </div>
+                    <p>
+                        Created in 2001 by 4 friends with the help of some generous financial backers, The Bristol Charity Coffee Collective is a group of 4 independently run coffee shops situated in the cultural melting-pot of Bristol.
+                    </p>
+                    <div class="about-text-divider"><hr></div>
+                    <p>
+                        Working together, the collective donates 20% of the profit from all sales to local charities in the greater Bristol area.
+                    </p>
+                    <p>
+                        Each year, we select 4 causes to support, and these receive 80% of our donation pool.  The final 20% is reserved for worthy causes brought to our attention by our customers.  At the end of the year, any remaining reserve is distributed evenly amongst our 4 primary beneficiaries.<br>
+                    </p>
+                    <div class="about-text-divider"><hr></div>
+                    <p>
+                        We are proud members of the <a href="https://www.suspendedcoffees.com" target="_blank">Suspended Coffee</a> movement, and extend the idea to our food.
+                        Any uncollected <a href="https://www.suspendedcoffees.com" target="_blank">Suspended</a> items, along with any leftover fresh foods, are donated to local homeless shelters at the end of each day.
+                    </p>
+                    <p>
+                        100% of our coffee and chocolate is sourced from fair trade plantations.
+                    </p>
+                    <p>
+                        All of our food is provided by local bakeries who are also committed to utilising responsibly sourced ingredients in their products.<br>
+                    </p>
+                    <div class="about-text-divider"><hr></div>
+                    <p>
+                        The support from our backers and the wonderful communities that we serve has been overwhelming, and we are extremely grateful for the opportunity to use our success to benefit those in need.
+                    </p>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="heart-img" src="assets/images/nathan-dumlao-ikU3J1nr52w-unsplash-heart.jpg" alt="Coffee Heart">
+                </div>                
+            </div>
+            <!--/.about us-->
+        </div>
     </section>
 
      <footer>
-         <!--Footer-->
+        <!--Social Media Links and Logo-->
         <div class="container-fluid footer-container">
             <div class="footer-divider"><hr></div>
             <div class="row no-gutters justify-content-center justify-content-md-end align-items-center">                
                 <div class="col col-md-4">
-                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="container-fluid justify-content-center align-items-center">
                         <div class="row justify-content-center align-items-center social-media-row">
                             <div class="col-auto">
                                 <a href="https://www.facebook.com" target="_blank">
@@ -178,19 +177,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-md-inline-block col-md-4 footer-logo">
+                <div class="d-none d-md-inline-block col-md-4 footer-logo-container">
                     <a href="index.html" class="d-inline-block">
                         <img class="logo" src="assets/images/logotest.png" alt="B3C Logo">
                     </a>
                 </div>
             </div>
         </div>
-        <!--/.footer-->
+        <!--/.social media links and logo-->
     </footer>
-     <!--Bootstrap Javascript-->
+
+    <!--Bootstrap Javascript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-     <!--./bootstrap javascript-->
+    <!--./bootstrap javascript-->
 </body>
 </html>

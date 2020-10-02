@@ -9,23 +9,15 @@
     <link rel="shortcut icon" type="image/jpg" href="assets/images/logo_size_invert.jpg"/>
     <!--/.favicon-->
 
-    <!--Bootstrap Stylesheet-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--/.bootstrap stylesheet-->
-
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/ace03ffe36.js" crossorigin="anonymous"></script>
     <!--/.font awesome-->
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-    <!--/.google fonts-->
-
     <!--Local Stylesheets-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/index-style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/modal-style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/cta-style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/contact-modal-style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/index-style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/media-queries.css" type="text/css">
     <!--/.local stylesheets-->
 
@@ -89,7 +81,7 @@
         </div>
         <!--/.contact us modal-->
         
-        <!--Hero Image, Overlay, Welcome Message and Quote-->
+        <!--Hero Image, Overlay, Welcome Message and Charity Info-->
         <div class="container-fluid hero-container">            
             <div class="hero-image">
                 <div class="overlay tint">
@@ -116,141 +108,148 @@
                 </div>                
             </div>
         </div>
-        <!--/.hero image, overlay, welcome message and quote-->
+        <!--/.hero image, overlay, welcome message and charity info-->
     </header>
 
     <section>
-        <div class="row no-gutters cta-row cta-row-top justify-content-center">
-            <div class="col-12">
+        <div class="container-fluid">
+            <!--Top CTA Row-->
+            <div class="row no-gutters cta-row justify-content-center" id="cta-row-top">
                 <!--Menu CTA-->
-                <div class="container-fluid cta-container">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-6 cta-image-col-left">
-                            <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
-                                <div class="cta-image-width">
-                                    <div class="cta-image">
-                                        <div class="overlay tint cta-image-overlay hidden text-center">
-                                            <a href="menu.html" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-coffee cta-image-icon"></i><p class="cta-image-text">View our menu</p></a>
+                <div class="col-12">                
+                    <div class="container-fluid cta-container">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6 cta-image-col-left">
+                                <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
+                                    <div class="cta-image-width">
+                                        <div class="cta-image">
+                                            <div class="overlay tint cta-image-overlay hidden text-center">
+                                                <a href="menu.html" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-coffee cta-image-icon"></i><p class="cta-image-text">View our menu</p></a>
+                                            </div>
+                                            <img src="assets/images/zan-baldwin-C64YvmXO_QA-unsplash.jpg" alt="Menu Image">
                                         </div>
-                                        <img src="assets/images/zan-baldwin-C64YvmXO_QA-unsplash.jpg" alt="Menu Image">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="d-none d-md-block col-md-6 text-md-left cta-text-col-right">
-                            <div class="d-flex justify-content-center justify-content-md-start align-items-center cta-flex-right">                                
-                                <div class="cta-text-wrapper">
-                                    <h4>We serve more than coffee...</h4>
-                                    <p>Our baked goods and sandwiches are provided daily by local independent bakeries.  Our coffee, tea and chocolate are sourced exclusively from fair trade plantations.</p>
-                                    <a href="menu.html" class="btn btn-info cta-btn cta-btn-right" role="button"><i class="fas fa-coffee cta-btn-icon"></i><p class="cta-btn-text">View our menu</p></a>
-                                </div>                                
+                            <div class="d-none d-md-block col-md-6 text-md-left cta-text-col-right">
+                                <div class="d-flex justify-content-center justify-content-md-start align-items-center cta-flex-right">                                
+                                    <div class="cta-text-wrapper">
+                                        <h4>We serve more than coffee...</h4>
+                                        <p>Our baked goods and sandwiches are provided daily by local independent bakeries.  Our coffee, tea and chocolate are sourced exclusively from fair trade plantations.</p>
+                                        <a href="menu.html" class="btn btn-info cta-btn cta-btn-right" role="button"><i class="fas fa-coffee cta-btn-icon"></i><p class="cta-btn-text">View our menu</p></a>
+                                    </div>                                
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div>            
                 </div>
                 <!--/.menu cta-->
-            </div>
 
-            <div class="col-12">
                 <!--Locations CTA-->
-                <div class="container-fluid cta-container">
-                    <div class="row align-items-center">
-                        <div class="d-none d-md-block col-md-6 text-md-right cta-text-col-left">
-                            <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
-                                <div class="cta-text-wrapper">
-                                    <h4>We'd love you to visit...</h4>
-                                    <p>Come and enjoy a relaxing drink and excellent local food at one of our 4 locations around Bristol, knowing that 20% of the proceeds will be donated to local charities.</p>
-                                    <a href="locations.html" class="btn btn-info cta-btn cta-btn-left" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Visit us</p></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 cta-image-col-right">
-                            <div class="d-flex justify-content-center justify-content-md-start align-items-center cta-flex-right">
-                                <div class="cta-image-width">
-                                    <div class="cta-image">
-                                        <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="locations.html" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-map-marker-alt cta-image-icon"></i><p class="cta-image-text">Visit us</p></a>
-                                        </div>
-                                        <img src="assets/images/samuel-oakes-Fr_XUMvQ9AU-unsplash.jpg" alt="Locations Image">
+                <div class="col-12">                
+                    <div class="container-fluid cta-container">
+                        <div class="row align-items-center">
+                            <div class="d-none d-md-block col-md-6 text-md-right cta-text-col-left">
+                                <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
+                                    <div class="cta-text-wrapper">
+                                        <h4>We'd love you to visit...</h4>
+                                        <p>Come and enjoy a relaxing drink and excellent local food at one of our 4 locations around Bristol, knowing that 20% of the proceeds will be donated to local charities.</p>
+                                        <a href="locations.html" class="btn btn-info cta-btn cta-btn-left" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Visit us</p></a>
                                     </div>
                                 </div>
                             </div>
-                        </div>                
-                    </div>
+                            <div class="col-12 col-md-6 cta-image-col-right">
+                                <div class="d-flex justify-content-center justify-content-md-start align-items-center cta-flex-right">
+                                    <div class="cta-image-width">
+                                        <div class="cta-image">
+                                            <div class="overlay tint cta-image-overlay hidden">
+                                                <a href="locations.html" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-map-marker-alt cta-image-icon"></i><p class="cta-image-text">Visit us</p></a>
+                                            </div>
+                                            <img src="assets/images/samuel-oakes-Fr_XUMvQ9AU-unsplash.jpg" alt="Locations Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>            
                 </div>
                 <!--/.locations cta-->
             </div>
-    </div>
-    <div class="row no-gutters cta-row cta-row-bottom justify-content-center">
-            <div class="col-12">
+            <!--/.top cta row-->
+
+            <!--Bottom CTA Row-->
+            <div class="row no-gutters cta-row justify-content-center" id="cta-row-bottom">
                 <!--About CTA-->
-                <div class="container-fluid cta-container">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-6 cta-image-col-left">
-                            <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
-                                <div class="cta-image-width">
-                                    <div class="cta-image">
-                                        <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="about.html" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-question-circle cta-image-icon"></i><p class="cta-image-text">Find out more</p></a>
+                <div class="col-12">                
+                    <div class="container-fluid cta-container">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6 cta-image-col-left">
+                                <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
+                                    <div class="cta-image-width">
+                                        <div class="cta-image">
+                                            <div class="overlay tint cta-image-overlay hidden">
+                                                <a href="about.html" class="btn btn-outline-info cta-image-btn" role="button"><i class="fas fa-question-circle cta-image-icon"></i><p class="cta-image-text">Find out more</p></a>
+                                            </div>
+                                            <img src="assets/images/matthew-gerrard-JQpe01ira0s-unsplash-resized.jpg" alt="About Image">
                                         </div>
-                                        <img src="assets/images/matthew-gerrard-JQpe01ira0s-unsplash-resized.jpg" alt="About Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-md-block col-md-6 text-md-left cta-text-col-right">
+                                <div class="d-flex justify-content-center justify-content-md-start align-items-center cta-flex-right">
+                                    <div class="cta-text-wrapper">
+                                        <h4>Local food.  Local support.</h4>
+                                        <p>Find out how we differ from other coffee shops, and what we do to assist and promote local charities.</p>
+                                        <a href="about.html" class="btn btn-info cta-btn cta-btn-right" role="button"><i class="fas fa-question-circle cta-btn-icon"></i><p class="cta-btn-text">Find out more</p></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="d-none d-md-block col-md-6 text-md-left cta-text-col-right">
-                            <div class="d-flex justify-content-center justify-content-md-start align-items-center cta-flex-right">
-                                <div class="cta-text-wrapper">
-                                    <h4>Local food.  Local support.</h4>
-                                    <p>Find out how we differ from other coffee shops, and what we do to assist and promote local charities.</p>
-                                    <a href="about.html" class="btn btn-info cta-btn cta-btn-right" role="button"><i class="fas fa-question-circle cta-btn-icon"></i><p class="cta-btn-text">Find out more</p></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div>                
                 </div>
                 <!--/.about cta-->
-            </div>
 
-            <div class="col-12">
                 <!--Contact CTA-->
-                <div class="container-fluid cta-container">
-                    <div class="row align-items-center">
-                        <div class="d-none d-md-block col-md-6 text-md-right cta-text-col-left">
-                            <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
-                                <div class="cta-text-wrapper">
-                                    <h4>We'd love to hear from you.</h4>                
-                                    <p>Enjoyed your experience at one of our shops?  Know of a local good cause we can support?  Let us know here!</p>                                    
-                                    <a href="#" class="btn btn-info cta-btn cta-btn-left" role="button" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope cta-btn-icon"></i><p class="cta-btn-text">Contact us</p></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 cta-image-col-right">
-                            <div class="d-flex justify-content-center justify-content-md-start align-items-center cta-flex-right">
-                                <div class="cta-image-width">
-                                    <div class="cta-image">
-                                        <div class="overlay tint cta-image-overlay hidden">
-                                            <a href="#" class="btn btn-outline-info cta-image-btn" role="button" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope cta-image-icon"></i><p class="cta-image-text">Contact us</p></a>
-                                        </div>
-                                        <img src="assets/images/mikey-harris-zasPTUnrWnI-unsplash.jpg" alt="Contact Image">
+                <div class="col-12">                
+                    <div class="container-fluid cta-container">
+                        <div class="row align-items-center">
+                            <div class="d-none d-md-block col-md-6 text-md-right cta-text-col-left">
+                                <div class="d-flex justify-content-center justify-content-md-end align-items-center cta-flex-left">
+                                    <div class="cta-text-wrapper">
+                                        <h4>We'd love to hear from you.</h4>                
+                                        <p>Enjoyed your experience at one of our shops?  Know of a local good cause we can support?  Let us know here!</p>                                    
+                                        <a href="#" class="btn btn-info cta-btn cta-btn-left" role="button" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope cta-btn-icon"></i><p class="cta-btn-text">Contact us</p></a>
                                     </div>
                                 </div>
                             </div>
-                        </div>                
-                    </div>
+                            <div class="col-12 col-md-6 cta-image-col-right">
+                                <div class="d-flex justify-content-center justify-content-md-start align-items-center cta-flex-right">
+                                    <div class="cta-image-width">
+                                        <div class="cta-image">
+                                            <div class="overlay tint cta-image-overlay hidden">
+                                                <a href="#" class="btn btn-outline-info cta-image-btn" role="button" data-toggle="modal" data-target="#contactModal"><i class="fas fa-envelope cta-image-icon"></i><p class="cta-image-text">Contact us</p></a>
+                                            </div>
+                                            <img src="assets/images/mikey-harris-zasPTUnrWnI-unsplash.jpg" alt="Contact Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>                
                 </div>
                 <!--/.contact cta-->
             </div>
+            <!--bottom cta row-->
         </div>
     </section>
 
     <footer>
-         <!--Footer-->
+        <!--Social Media Links and Logo-->
         <div class="container-fluid footer-container">
             <div class="footer-divider"><hr></div>
             <div class="row no-gutters justify-content-center justify-content-md-end align-items-center">                
                 <div class="col col-md-4">
-                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="container-fluid justify-content-center align-items-center">
                         <div class="row justify-content-center align-items-center social-media-row">
                             <div class="col-auto">
                                 <a href="https://www.facebook.com" target="_blank">
@@ -275,15 +274,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-md-inline-block col-md-4 footer-logo">
+                <div class="d-none d-md-inline-block col-md-4 footer-logo-container">
                     <a href="index.html" class="d-inline-block">
                         <img class="logo" src="assets/images/logotest.png" alt="B3C Logo">
                     </a>
                 </div>
             </div>
         </div>
-        <!--/.footer-->
+        <!--/.social media links and logo-->
     </footer>
+
     <!--Bootstrap Javascript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
