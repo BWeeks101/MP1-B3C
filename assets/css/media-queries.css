@@ -185,7 +185,7 @@
         background-color: transparent;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        border-radius: none;
+        border-radius: 0;
     }
 
     .welcome-logo {
@@ -239,7 +239,7 @@
         background-color: transparent;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        border-radius: none;
+        border-radius: ;
     }
 
     .cta-image-width {
