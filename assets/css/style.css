@@ -1,4 +1,11 @@
 /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
 Colour Palette:
 #fafafa; Text Colour
 #4F483A; Background Colour
@@ -26,10 +33,15 @@ font-family: 'Roboto Mono', monospace;
 
 /*..........Set Page Defaults*/
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
     min-width: 280px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: #4F483A;
@@ -38,7 +50,9 @@ body {
 }
 
 section {
-    flex: 1 0 auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
 }
 
 h1, h2, h4, h5 {
@@ -123,7 +137,9 @@ div, nav, ul, li, img, i, a, p {
     width: 100%;
     padding: 5px 5px;
     z-index: 101;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 
 .header-divider {
@@ -137,7 +153,8 @@ div, nav, ul, li, img, i, a, p {
 
 .header-divider hr {
     border-top: solid 1px #4F483A;
-    filter: brightness(150%);
+    -webkit-filter: brightness(150%);
+            filter: brightness(150%);
 }
 
 .logo {
@@ -154,7 +171,8 @@ div, nav, ul, li, img, i, a, p {
 
 .header-nav-tint {
     background-color: rgba(39,36,29,.95);
-    box-shadow: 5px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 5px 5px rgba(0,0,0,0.1);
+            box-shadow: 5px 5px rgba(0,0,0,0.1);
     border-radius: 15px;
 }
 
@@ -186,7 +204,8 @@ div, nav, ul, li, img, i, a, p {
 
 /*..........Footer*/
 footer {
-    flex-shrink: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
 }
 
 .footer-container {

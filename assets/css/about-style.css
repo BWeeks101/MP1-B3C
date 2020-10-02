@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*..........About Us*/
 .about-hero-row, .about-text-row {
     margin: 30px 0;
@@ -6,7 +13,8 @@
 
 .about-hero-row .col {
     border-radius: 15px;
-    box-shadow: 5px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 5px 5px rgba(0,0,0,0.1);
+            box-shadow: 5px 5px rgba(0,0,0,0.1);
     overflow: hidden;
 }
 
@@ -33,7 +41,10 @@
 }
 
 .about-hero-row .overlay {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .about-hero-quote {
@@ -41,13 +52,15 @@
 }
 
 .about-hero-img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
 .about-hero-logo {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 15%;
     width: 12%;
     min-height: 32px;
@@ -64,14 +77,17 @@
 
 .about-text-divider hr {
     border-top: solid 1px #4F483A;
-    filter: brightness(150%);
+    -webkit-filter: brightness(150%);
+            filter: brightness(150%);
 }
 
 .heart-img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 190px;
     width: 190px;
     border-radius: 50%;
-    box-shadow: 5px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 5px 5px rgba(0,0,0,0.1);
+            box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
 /*........../.about us*/

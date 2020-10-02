@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*..........CTA Block*/
 .cta-row {
     margin: 15px 0;
@@ -48,19 +55,28 @@
     max-height: 340px;
     max-width: 510px;
     border-radius: 15px;
-    box-shadow: 5px 5px rgba(0,0,0,0.10);    
+    -webkit-box-shadow: 5px 5px rgba(0,0,0,0.10);
+            box-shadow: 5px 5px rgba(0,0,0,0.10);    
     overflow: hidden;
 }
 
 .cta-image img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
 }
 
 .cta-image-overlay {
-    flex-direction: column;
-    align-items: center;    
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;    
+    -webkit-box-pack: center;    
+        -ms-flex-pack: center;    
+            justify-content: center;
 }
 
 .cta-image-text {
@@ -74,14 +90,24 @@
 }
 
 .cta-image:hover .hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .cta-image-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: calc(100% - 10px);
     padding: 6px;
 }
@@ -94,7 +120,9 @@
 }
 
 .cta-image-btn .cta-image-icon {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
 }
 
 .cta-btn-icon {

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*..........Carousel*/
 .carousel-container {
     margin-top: 30px;
@@ -57,13 +64,15 @@
 .carousel-image-wrapper {
     height: 100%;
     border-radius: 15px;
-    box-shadow: 5px 5px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 5px 5px rgba(0,0,0,0.10);
+            box-shadow: 5px 5px rgba(0,0,0,0.10);
     overflow: hidden;
 }
 
 .carousel-image-wrapper img {
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
 }
 /*........../.carousel*/

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*..........Page Title Override*/
 .title-container {
     position: absolute;
@@ -54,13 +61,15 @@
     margin: 0;
     padding: 0;
     border-top: solid 1px #4F483A;
-    filter: brightness(150%);
+    -webkit-filter: brightness(150%);
+            filter: brightness(150%);
 }
 
 .menu-availability {
     padding: 15px;
     border-radius: 15px;
     background-color: rgba(39,36,29,0.7);
-    box-shadow: 5px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 5px 5px rgba(0,0,0,0.1);
+            box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
 /*........../.menu*/
