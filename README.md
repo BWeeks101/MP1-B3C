@@ -270,46 +270,15 @@ Devices physically tested include:
 		- Menu Availability Notice text will be centered
 		- Menu Availability Notice will extend to the full width of the rows preceeding it
 	- 'Food' Carousel Indicator should be active (Opacity 1, 'Food' menu visible):
-		- (0px-767px) Food menu should display centered, in a single column in the following order:
-			```
-			Savoury
-			Toast
-			
-			Image of Croissants and Coffee
-			
-			Pastries
-			Snacks & Biscuits
-			
-			Image of Cupcakes
-			
-			Cakes
-			Menu Availability Notice
-			```
-			- (411px) Menu items should increase in size to 1em
+        - (0px-767px) Food menu should display centered, in a single column in the following order:
+            <br><img src="/README-Images/Food-Menu-Single-Column.png">
+		    - (411px) Menu items should increase in size to 1em
 																																				
-		- (768px-1199px) Food menu should display left aligned, in 2 columns offset by a full height left sidebar displaying an image of Pastries and Coffee, in the following order (note the addition of multi column dividers):
-			```
-			Savoury		Toast
-			Pastries	Snacks and Biscuits
-			
-			Image of Cupcakes (Double Column)
-			
-			Cakes (Double Column)
-			Menu Availability Notice (Double Column)
-			```
+		- (768px-1199px) Food menu should display left aligned, in 2 columns offset by a full height left sidebar displaying an image of Pastries and Coffee, in the following order:
+            <br><img src="/README-Images/Food-Menu-Double-Column.png">			
 		
 		- (1200px+) Food menu should display left aligned, in 4 columns offset by a full height left sidebar displaying an image of Pastries and Coffee, in the following order (note the addition of multi column dividers):
-			
-			```
-			Savoury (Triple Column)  Toast
-			Menu Divider (Quadruple Column)
-			Pastries (Double Column) Snacks & Biscuits (Double Column
-			
-			Image of Cupcakes (Quadruple Column)
-			
-			Cakes (Quadruple Column)
-			Menu Availability Notice (Quadruple Column)
-			```
+			<br><img src="/README-Images/Food-Menu-Quadruple-Column.png">
 
 	- 'Drinks' Carousel Indicator should be inactive (Opacity .5, 'Food' menu visible)
 	- 'Drinks' Carousel Indicator should become Active when tapped/clicked:
@@ -317,53 +286,14 @@ Devices physically tested include:
 		- 'Drinks' menu slides onto the screen from the right
 																
 		- (0px-767px) Drinks menu should display centered, in a single column in the following order:
-			```
-			Coffees
-			Tea
-			
-			Image of Coffee Cup and Green Leaves
-			
-			Filter Coffee
-			Hot Chocolate
-			Mochas
-			Juices
-			
-			Image of Coffee Beans and Grounds
-			
-			Frappes
-			Bottled Drinks
-			Extras
-			Menu Availability Notice
-			```
+            <br><img src="/README-Images/Drinks-Menu-Single-Column.png">
 			- (411px) Menu items should increase in size to 1em
 									
 		- (768px-1199px) Drinks menu should display left aligned, in 2 columns offset by a full height right sidebar displaying an image of 2 Coffee Cups and Green Leaves, in the following order (note the addition of multi column dividers):
-			```
-			Coffees			Tea
-			Filter Coffee           Hot Chocolate
-			Mochas			Juices
-			
-			Image of Coffee Beans and Grounds (Double Column)
-			
-			Frappes			Bottled Drinks
-			Menu Divider
-			Extras (Double Column)
-			Menu Availability Notice (Double Column)
-			```
+            <br><img src="/README-Images/Drinks-Menu-Double-Column.png">
 
 		- (1200px+) Drinks menu should display left aligned, in 4 columns offset by a full height right sidebar displaying an image of 2 Coffee Cups and Green Leaves, in the following order (note the addition of multi column dividers):
-			
-			```
-			Coffees (Double Column)  	Tea (Double Column)
-			Filter Coffee	Hot Chocolate	Mochas	Juices
-			
-			Image of Coffee Beans and Grounds (Quadruple Colum)
-			
-			Frappes (Double Column)		Bottled Drinks (Double Column)
-			Menu Divider
-			Extras (Quadruple Column)
-			Menu Availability Notice (Quadruple Column)
-			```
+			<br><img src="/README-Images/Drinks-Menu-Quadruple-Column.png">
 
 	- 'Food' Carousel Indicator should be inactive (Opacity .5, 'Drinks' menu visible)
 	- 'Food' Carousel Indicator should become Active when tapped/clicked:
@@ -399,39 +329,15 @@ Devices physically tested include:
 	- (0px-767px):
 		- On any tested resolution, any single given Location Image should always fit within the confines of the screen (landscape)
 		- On any tested resolution, any single given Location Image + Address Block should always fit within the confines of the screen (portrait)
-		- Each location should display in a single column, in the following element order:
-			
-			```
-			Image
-			Title
-			Facilities Icons
-			Address
-			Contact Button
-			Directions Button
-			Divider
-			```
+		- Each location should display in a single column, in the following element order (Note the Divider at the bottom):
+			<br><img src="/README-Images/Location-Card-Single-Column-Element-Order.png">
+
 		- Each location should display in the following order:
-			```
-			Clifton Village
-			Horfield
-			Southville
-			Totterdown
-			```
+            <br><img src="/README-Images/Location-Card-Order.png">
+
 	- (768px+)
 		- Each location should display in a single row, in the following, alternating element order (per wireframe) (No dividers should be visible at these resolutions):
-			```
-			(Left Aligned Text and Buttons)
-				Image-> Title
-				     -> Facilities Icons
-				     -> Address
-				     -> Contact Button->Directions Button
-			
-			(Right Aligned Text and Buttons)
-						            Title-> Image
-						 Facilities Icons->
-                                              Address->
-				Contact Button->Directions Button->
-			```
+            <br><img src="/README-Images/Location-Card-Alternating-Element-Order.png">
 			
 			- The Address elements and buttons should vertically fit within the height of the image
 			- (992px)
