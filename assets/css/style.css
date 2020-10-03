@@ -95,7 +95,7 @@ h1, h2, h4, h5 {
     background-color: transparent;
 }
 
-a, .header-nav-link-text {
+a, .header-nav-link-text, .btn-info, .btn-secondary {
     color: #fafafa;
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
@@ -115,7 +115,7 @@ div, nav, ul, li, img, i, a, hr, .row, .header-nav-link, .header-nav-link-text {
     padding: 0;
 }
 
-div, nav, ul, li, img, i, a, p {
+div, nav, ul, li, img, i, a, p, span {
     background-color: transparent;
 }
 

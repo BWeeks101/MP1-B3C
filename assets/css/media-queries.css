@@ -280,7 +280,7 @@
         font-size: 1.5em;
     }
     
-    .cta-text-wrapper p, .locations-modal-text p, .cta-text-wrapper a i, .locations-modal-text a i {
+    .cta-text-wrapper p, .cta-text-wrapper span, .locations-modal-text span, .cta-text-wrapper a i, .locations-modal-text a i {
         font-size: 1em;
     }
 
@@ -309,7 +309,7 @@
         font-size: 1.4em;
     }
     
-    .cta-text-wrapper p, .locations-modal-text p {
+    .cta-text-wrapper p, .cta-text-wrapper span, .locations-modal-text span {
         font-size: 1.25em;
     }
 
