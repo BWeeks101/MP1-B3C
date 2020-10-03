@@ -6,10 +6,10 @@ I decided that as I am limited to HTML and CSS, that I would avoid creating any 
  
 ## UX
  
-My fictional brief involved the business looking to improve their web presence in an effort to entice people to:
+My fictional brief involved the business looking to improve their web presence in an effort to:
 
-1. Visit their shops
-2. Gain a greater understanding of their ethos
+1. Drive additional revenue
+2. Allow customers to gain a greater understanding of their ethos
 3. Improve customer interaction by providing multiple methods of contact
 
 Aside from the obvious requirement of a 'landing' page (which I felt should have a full screen hero image and inviting navigation links), I wanted to create an online sample food and drinks menu, a page detailing the location of each shop, and an about page with information about the collective.  Finally I wanted to include a contact form.
@@ -159,10 +159,10 @@ Devices physically tested include:
 		- Header logo should be visible in the top left corner
 			- Header logo should link to index.html
 		- Burger Button/Navbar should display as appropriate:
-			- Burger Button (Top right corner) (0px-767px)
+			-  (0px-767px) Burger Button (Top right corner)
 				- Ensure Nav dropdown displays correctly below the button along the right edge
 				- Nav link icons should have a width of 1.25em
-			- Expanded Nav (Right aligned) (768px+)
+			-  (768px+) Expanded Nav (Right aligned)
 				- The expanded Nav should have no visible border, background or box-shadow
 				- (992px) 
 					- Nav link icons should have a font-size of 1.25em and a right margin of 5px
@@ -213,20 +213,20 @@ Devices physically tested include:
 	- 'Home' Nav element should be Active in the Navbar and on the dropdown
 	- The Hero Image should display full screen
 	- Large logo should be displayed centrally over the Hero Image
-		- Large Logo should increase in height to 75px (width will scale) (768px) 
+		- (768px) Large Logo should increase in height to 75px (width will scale) 
 	- Welcome message should be visible:
-		- above and below centralised logo (0px-1999px)
-		- above centralised logo (1200px+)
+		- (0px-1999px) above and below centralised logo
+		- (1200px+) above centralised logo
 			- size should increase to 4em
 	- Charity message should display centrally below the Welcome message and Logo
 		- URL to SuspendedCoffees.com should underline on hover and link to the correct site
-		- Charity info text should increase to 1em (768px)
-		- Charity info text should increase to 1.4em (1200px)
+		- (768px) Charity info text should increase to 1em
+		- (1200px) Charity info text should increase to 1.4em
 	- CTA Elements (Menu, Locations, About, Contact) Should display:
-		- As Images with overlaid link (button) (0px-767px)
+		- (0px-767px) As Images with overlaid link (button)
 			- Button will have a blue border (.btn-outline-info), and an rgba(0,0,0,0.5) background.
 			-  On any tested resolution, any single given CTA Image should always fit within the confines of the screen (portrait or landscape)
-		- As alternating left/right Images/Text (per wireframe) (768px-1919px)
+		- (768px-1919px) As alternating left/right Images/Text (per wireframe)
 			<br><img src="/README-Images/CTA-Elements-768-1919.png">
 			
 			- On any tested resolution, any single given CTA Image + Text Block should always fit within the confines of the screen (portrait or landscape) in a single row (no flex wrapping)
@@ -247,14 +247,14 @@ Devices physically tested include:
 				- p and span text should increase to 1.25em
 				- icons should increase to 1.1em													
 													
-		- As a block of 4 images flanked by text in the following order (per wireframe) (1200px+)
+		- (1200px+) As a block of 4 images flanked by text in the following order (per wireframe)
             <br><img src="/README-Images/CTA-Elements-1200.png">
 
 			- On Laptop/Desktop:
 				- CTA Images should darken and show an appropriate URL on hover
 				- CTA Buttons should darken on hover
 
-			- (1920px+) the CTA Block should be full width(-20px), with a max width of 2140px
+		- (1920px+) the CTA Block should be full width(-20px), with a max width of 2140px
 	
 		- Regardless of resolution:
 			- All CTA buttons/links should function and link to the correct page
