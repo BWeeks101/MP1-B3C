@@ -164,7 +164,7 @@ Devices physically tested include:
 				- Nav link icons should have a width of 1.25em
 			-  (768px+) Expanded Nav (Right aligned)
 				- The expanded Nav should have no visible border, background or box-shadow
-				- (992px) 
+				- (992px+) 
 					- Nav link icons should have a font-size of 1.25em and a right margin of 5px
 					- Nav link text should have a font-size of 1.4em
 				
@@ -182,10 +182,10 @@ Devices physically tested include:
 				- The success page will be displayed in a new tab
 
 		- Contact Us Modal:
-			- (992px) 
+			- (992px+) 
 				- Modal Title should increase to 1.5em
 				- Modal button text should increase to 1em
-			- (1200px)
+			- (1200px+)
 				- Modal button text should increase to 1.25em
 																
 																	
@@ -213,15 +213,15 @@ Devices physically tested include:
 	- 'Home' Nav element should be Active in the Navbar and on the dropdown
 	- The Hero Image should display full screen
 	- Large logo should be displayed centrally over the Hero Image
-		- (768px) Large Logo should increase in height to 75px (width will scale) 
+		- (768px+) Large Logo should increase in height to 75px (width will scale) 
 	- Welcome message should be visible:
 		- (0px-1999px) above and below centralised logo
 		- (1200px+) above centralised logo
 			- size should increase to 4em
 	- Charity message should display centrally below the Welcome message and Logo
 		- URL to SuspendedCoffees.com should underline on hover and link to the correct site
-		- (768px) Charity info text should increase to 1em
-		- (1200px) Charity info text should increase to 1.4em
+		- (768px-1199px) Charity info text should increase to 1em
+		- (1200px+) Charity info text should increase to 1.4em
 	- CTA Elements (Menu, Locations, About, Contact) Should display:
 		- (0px-767px) As Images with overlaid link (button)
 			- Button will have a blue border (.btn-outline-info), and an rgba(0,0,0,0.5) background.
@@ -239,11 +239,11 @@ Devices physically tested include:
 						- CTA Image Button icons should increase to 1.65em
 				- CTA Buttons should darken on hover
 				
-			- (992px)
+			- (992px+)
 				- H4 headers should increase to 1.5em
 				- P and Span text and icons should increase to 1em
 			
-			- (1200px)
+			- (1200px+)
 				- p and span text should increase to 1.25em
 				- icons should increase to 1.1em													
 													
@@ -263,7 +263,7 @@ Devices physically tested include:
 3. Menu.html
 	- 'Menu' Nav element should be Active in the Navbar and on the dropdown
 	- Menu title should be displayed centrally at the top of the page (below the Navbar)
-	- (451px) The 'Food' and 'Drinks' carousel indicators will stack with their respective icons, increasing their height.  Alignment of lower carousel items should adjust to maintain spacing.
+	- (0px-451px) The 'Food' and 'Drinks' carousel indicators will stack with their respective icons, increasing their height.  Alignment of lower carousel items should adjust to maintain spacing.
 	- At all breakpoints, on both 'Food' and 'Drinks' carousel items:
 		- All headings should be underlined
 		- Menu Availability Notice should have a darker background
@@ -340,15 +340,15 @@ Devices physically tested include:
             <br><img src="/README-Images/Location-Card-Alternating-Element-Order.png">
 			
 			- The Address elements and buttons should vertically fit within the height of the image
-			- (992px)
+			- (992px+)
 				- the Contact and Directions buttons will stack vertically (Contact, then Directions).
 					- The Address elements and buttons should still vertically fit within the height of the image
 				- Location Modal Titles should increase to 1.5em
 				- Modal text and button text should increase to 1em
-			- (1200px)
+			- (1200px+)
 				- Modal text and button text should increase to 1.25em
 				- Modal icons should increase to 1.1em
-			- (1440px)
+			- (1440px+)
 				- the Location elements will stop sizing with the browser until 1920px, when they will maintain a width of 75% of the browser window, with a max of 2140px.
 			
 	### User Story Testing
@@ -389,7 +389,7 @@ Devices physically tested include:
 	- Round 'Coffee Heart' image appears below the About text		
 	- All <section> elements will resize appropriately to a max of 2140px
 	
-	- (411px)
+	- (411px+)
 		- Paragraph text should increase in size to 1em
 		- H4 text (quote) should increase in size to 1.5em
 		- H5 text (quote attribution) should increase in size to 1.25em
