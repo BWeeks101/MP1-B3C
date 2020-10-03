@@ -227,12 +227,7 @@ Devices physically tested include:
 			- Button will have a blue border (.btn-outline-info), and an rgba(0,0,0,0.5) background.
 			-  On any tested resolution, any single given CTA Image should always fit within the confines of the screen (portrait or landscape)
 		- As alternating left/right Images/Text (per wireframe) (768px-1919px)
-			```
-			Menu Image->Menu Text + Button (Left Aligned)
-			Location Text + Button (Right Aligned) ->Location Image
-			About Image->About Text + Button (Left Aligned)
-			Contact Text + Button (Right Aligned) ->Contact Image
-			```
+			<br><img src="/README-Images/CTA-Elements-768-1919.png">
 			
 			- On any tested resolution, any single given CTA Image + Text Block should always fit within the confines of the screen (portrait or landscape) in a single row (no flex wrapping)
 			
@@ -253,10 +248,7 @@ Devices physically tested include:
 				- icons should increase to 1.1em													
 													
 		- As a block of 4 images flanked by text in the following order (per wireframe) (1200px+)
-			```
-			  Menu Text + Button (Right Aligned)->Menu Image	Location Image->Location Text + Button (Left Aligned)
-			About Text + Button (Right Aligned)->About Image	Contact Image->Contact Text + Button (Left Aligned)
-			```
+            <br><img src="/README-Images/CTA-Elements-1200.png">
 
 			- On Laptop/Desktop:
 				- CTA Images should darken and show an appropriate URL on hover
@@ -348,7 +340,7 @@ Devices physically tested include:
 		- (768px-1199px) Drinks menu should display left aligned, in 2 columns offset by a full height right sidebar displaying an image of 2 Coffee Cups and Green Leaves, in the following order (note the addition of multi column dividers):
 			```
 			Coffees			Tea
-			Filter Coffee	Hot Chocolate
+			Filter Coffee           Hot Chocolate
 			Mochas			Juices
 			
 			Image of Coffee Beans and Grounds (Double Column)
@@ -362,12 +354,12 @@ Devices physically tested include:
 		- (1200px+) Drinks menu should display left aligned, in 4 columns offset by a full height right sidebar displaying an image of 2 Coffee Cups and Green Leaves, in the following order (note the addition of multi column dividers):
 			
 			```
-			Coffees (Double Column)  		Tea (Double Column
+			Coffees (Double Column)  	Tea (Double Column)
 			Filter Coffee	Hot Chocolate	Mochas	Juices
 			
 			Image of Coffee Beans and Grounds (Quadruple Colum)
 			
-			Frappes (Double Column)			Bottled Drinks (Double Column)
+			Frappes (Double Column)		Bottled Drinks (Double Column)
 			Menu Divider
 			Extras (Quadruple Column)
 			Menu Availability Notice (Quadruple Column)
@@ -430,14 +422,14 @@ Devices physically tested include:
 			```
 			(Left Aligned Text and Buttons)
 				Image-> Title
-					 ->	Facilities Icons
-					 ->	Address
-					 ->	Contact Button->Directions Button
+				     -> Facilities Icons
+				     -> Address
+				     -> Contact Button->Directions Button
 			
 			(Right Aligned Text and Buttons)
-											Title-> Image
-								 Facilities Icons->
-										  Address->
+						            Title-> Image
+						 Facilities Icons->
+                                              Address->
 				Contact Button->Directions Button->
 			```
 			
@@ -531,7 +523,7 @@ Much of the menu text was copied from various coffee shop websites, such as
 		
 All additional text was written from scratch by myself.
 
-###Code
+### Code
 		
 During creation of the project, I utilised the following resources to gather example code, then modify it for usage on this site:
 
