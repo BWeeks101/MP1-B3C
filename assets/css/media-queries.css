@@ -284,6 +284,10 @@
         font-size: 1em;
     }
 
+    .modal-footer button, .modal-footer input {
+        width: 90px;
+    }
+
     .tooltiptext {
         width: 90px;
         height: 90px;
@@ -309,12 +313,16 @@
         font-size: 1.4em;
     }
     
-    .cta-text-wrapper p, .cta-text-wrapper span, .locations-modal-text span {
+    .cta-text-wrapper p, .cta-text-wrapper span, .modal-footer button, .modal-footer input, .locations-modal-text span {
         font-size: 1.25em;
     }
 
     .cta-text-wrapper a i, .locations-modal-text a i {
         font-size: 1.1em;
+    }
+
+    .modal-footer button, .modal-footer input {
+        width: 100px;
     }
 
     #savoury-col, #toast-col {
