@@ -27,7 +27,8 @@
 </head>
 
 <body>
-    <header>        
+    <header> 
+        <!--Bootstrap Documentation - Navbar - Modified - https://getbootstrap.com/docs/4.5/components/navbar/#toggler-->              
         <!--Logo and Nav-->
         <nav class="navbar header-nav justify-content-md-between align-items-top navbar-dark">
             <a href="index.html" class="d-inline-block navbar-brand">
@@ -51,6 +52,7 @@
         <div class="header-divider"><hr></div>        
         <!--/.logo and nav-->
 
+        <!--Bootstrap Documentation - Modal - Modified - https://getbootstrap.com/docs/4.5/components/modal/#live-demo-->       
         <!--Contact Us Modal-->
         <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-label="Contact Us" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -63,11 +65,12 @@
                     </div>
                     <div class="modal-divider modal-header-divider"><hr></div>
                     <div class="modal-body">
+                        <!--CI 'Resume' Project and Bootstrap Documentation - Form - Modified-->      
                         <!--Contact Us Form-->
                         <form class="contact-form needs-validation" novalidate id="contact-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" aria-label="Full Name" required>
                             <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" aria-label="Email Address" required>
-                            <textarea name="usercomments" id="usercomments" class="form-control" placeholder="Your Comments" cols="30" rows="10" aria-label="Your Comments" required></textarea>                        
+                            <textarea name="usercomments" id="usercomments" class="form-control" placeholder="Your Comments" rows="10" maxlength="1024" aria-label="Your Comments" required></textarea>
                         </form>
                         <!--/.contact us form-->
                     </div>                    
@@ -81,6 +84,7 @@
         </div>
         <!--/.contact us modal-->
 
+        <!--Bootstrap Documentation - Modal - Modified - https://getbootstrap.com/docs/4.5/components/modal/#live-demo-->      
         <!--Contact Clifton Village Shop Modal-->
         <div class="modal fade" id="cliftonModal" tabindex="-1" role="dialog" aria-label="Contact Clifton Village Shop" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -107,6 +111,7 @@
         </div>
         <!--/.contact clifton village shop modal-->
 
+        <!--Bootstrap Documentation - Modal - Modified - https://getbootstrap.com/docs/4.5/components/modal/#live-demo-->      
         <!--Contact Horfield Shop Modal-->
         <div class="modal fade" id="horfieldModal" tabindex="-1" role="dialog" aria-label="Contact Horfield Shop" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -133,6 +138,7 @@
         </div>
         <!--/.contact horfield shop modal-->
 
+        <!--Bootstrap Documentation - Modal - Modified - https://getbootstrap.com/docs/4.5/components/modal/#live-demo-->       
         <!--Contact Southville Shop Modal-->
         <div class="modal fade" id="southvilleModal" tabindex="-1" role="dialog" aria-label="Contact Southville Shop" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -159,6 +165,7 @@
         </div>
         <!--/.contact southville shop modal-->
 
+        <!--Bootstrap Documentation - Modal - Modified - https://getbootstrap.com/docs/4.5/components/modal/#live-demo-->      
         <!--Contact Totterdown Shop Modal-->
         <div class="modal fade" id="totterdownModal" tabindex="-1" role="dialog" aria-label="Contact Totterdown Shop" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -226,6 +233,7 @@
                                         </p>
                                         <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#cliftonModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
                                         <div class="d-block d-md-none d-lg-block"></div>
+                                        <!--Google Maps Directions URL created by reviewing URL passed from Directions buttons at https://www.coffee1.co.uk/locations/-->
                                         <a href="https://www.google.com/maps/dir/Current+Location/20%2C+Princess+Victoria+Street%2C+Bristol+BS8+4BP%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
                                         <div class="d-md-none locations-divider"><hr></div>
                                     </div>                                
@@ -258,6 +266,7 @@
                                         </p>
                                         <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#horfieldModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
                                         <div class="d-block d-md-none d-lg-block"></div>
+                                        <!--Google Maps Directions URL created by reviewing URL passed from Directions buttons at https://www.coffee1.co.uk/locations/-->
                                         <a href="https://www.google.com/maps/dir/Current+Location/321%2C+Gloucester+Road%2C+Horfield%2C+Bristol+BS7+8TN%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
                                         <div class="d-md-none locations-divider"><hr></div>
                                     </div>
@@ -308,6 +317,7 @@
                                         </p>
                                         <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#southvilleModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
                                         <div class="d-block d-md-none d-lg-block"></div>
+                                        <!--Google Maps Directions URL created by reviewing URL passed from Directions buttons at https://www.coffee1.co.uk/locations/-->
                                         <a href="https://www.google.com/maps/dir/Current+Location/252%2C+North+Street%2C+Bristol+BS3+1JN%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
                                         <div class="d-md-none locations-divider"><hr></div>
                                     </div>
@@ -340,6 +350,7 @@
                                         </p>
                                         <a href="#" class="btn btn-secondary cta-btn" role="button" data-toggle="modal" data-target="#totterdownModal"><i class="fas fa-phone-alt cta-btn-icon"></i><p class="cta-btn-text">Contact</p></a>
                                         <div class="d-block d-md-none d-lg-block"></div>
+                                        <!--Google Maps Directions URL created by reviewing URL passed from Directions buttons at https://www.coffee1.co.uk/locations/-->
                                         <a href="https://www.google.com/maps/dir/Current+Location/145%2C+Wells+Road%2C+Bristol+BS4+2BU%2C+United+Kingdom" target="_blank" class="btn btn-info cta-btn" role="button"><i class="fas fa-map-marker-alt cta-btn-icon"></i><p class="cta-btn-text">Directions</p></a>
                                     </div>
                                 </div>

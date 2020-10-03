@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-/*
+/*.................................................................................................................................................
 Colour Palette:
 #fafafa; Text Colour
 #4F483A; Background Colour
@@ -19,7 +19,41 @@ font-family: 'Roboto Slab', serif;
 
 Content Fonts:
 font-family: 'Roboto Mono', monospace;
-*/
+.................................................................................................................................................*/
+
+/*.................................................................................................................................................
+The Flex based 'Sticky Footer' method Utilised in this CSS is modified from https://css-tricks.com/couple-takes-sticky-footer/ 
+                                                                        and https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+
+Original CSS-Tricks Example Below:
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+
+Original PhilipWalton Example Below:
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+.................................................................................................................................................*/
 
 /*..........Bootstrap Stylesheet*/
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
@@ -113,6 +147,7 @@ div, nav, ul, li, img, i, a, p {
     width: 100%;
 }
 
+/*.tint idea acquired from the hero image .opaque-overlay utilised in the CI 'Whiskey Drop' project*/
 .tint {
     background-color: rgba(0,0,0,0.5);
 }

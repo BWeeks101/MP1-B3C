@@ -26,7 +26,8 @@
 </head>
 
 <body>
-    <header>        
+    <header>
+        <!--Bootstrap Documentation - Navbar - Modified - https://getbootstrap.com/docs/4.5/components/navbar/#toggler-->               
         <!--Logo and Nav-->
         <nav class="navbar header-nav justify-content-md-between align-items-top navbar-dark">
             <a href="index.html" class="d-inline-block navbar-brand">
@@ -50,6 +51,7 @@
         <div class="header-divider"><hr></div>        
         <!--/.logo and nav-->
 
+        <!--Bootstrap Documentation - Modal - Modified - https://getbootstrap.com/docs/4.5/components/modal/#live-demo-->       
         <!--Contact Us Modal-->
         <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-label="Contact Us" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -62,11 +64,12 @@
                     </div>
                     <div class="modal-divider modal-header-divider"><hr></div>
                     <div class="modal-body">
+                        <!--CI 'Resume' Project and Bootstrap Documentation - Form - Modified-->      
                         <!--Contact Us Form-->
                         <form class="contact-form needs-validation" novalidate id="contact-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" aria-label="Full Name" required>
                             <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" aria-label="Email Address" required>
-                            <textarea name="usercomments" id="usercomments" class="form-control" placeholder="Your Comments" cols="30" rows="10" aria-label="Your Comments" required></textarea>                        
+                            <textarea name="usercomments" id="usercomments" class="form-control" placeholder="Your Comments" rows="10" maxlength="1024" aria-label="Your Comments" required></textarea>
                         </form>
                         <!--/.contact us form-->
                     </div>                    
