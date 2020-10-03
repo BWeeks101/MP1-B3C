@@ -45,6 +45,10 @@
     margin: 10px 10px 0;
 }
 
+.modal-title {
+    font-size: 1.2em;
+}
+
 .modal-body {
     margin: 0 15px;
 }
@@ -56,11 +60,13 @@
 .modal-footer button {
     width: 79px;
     margin: 0 5px;
+    font-size: 0.85em;
 }
 
 .modal-footer input {
     width: 79px;
     margin: 0 0 0 5px;
+    font-size: 0.85em;
 }
 
 .contact-form input {
@@ -103,10 +109,6 @@
 
 .locations-modal-text .tel-url {
     margin-bottom: 15px;
-}
-
-.locations-modal-title {
-    font-size: 1.2em;
 }
 
 .locations-modal-text span, .locations-modal-text a i {

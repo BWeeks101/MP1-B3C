@@ -276,11 +276,11 @@
         max-width: 900px;
     }
 
-    .cta-text-wrapper h4, .locations-modal-title {
+    .cta-text-wrapper h4, .modal-title {
         font-size: 1.5em;
     }
     
-    .cta-text-wrapper p, .cta-text-wrapper span, .locations-modal-text span, .cta-text-wrapper a i, .locations-modal-text a i {
+    .cta-text-wrapper p, .cta-text-wrapper span, .modal-footer button, .modal-footer input, .locations-modal-text span, .cta-text-wrapper a i, .locations-modal-text a i {
         font-size: 1em;
     }
 
