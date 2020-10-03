@@ -431,7 +431,7 @@ All additional text was written from scratch by myself.
 
 ### Code
 		
-During creation of the project, I utilised the following resources to gather example code, then modify it for usage on this site:
+During creation of the project, I utilised the following resources to gather example code, then modified it for use on this site:
 
 * CI 'WhiskeyDrop' project (rgba overlay)
 * CI 'Resume' project (Form)
